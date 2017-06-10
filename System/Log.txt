@@ -1,0 +1,2147 @@
+﻿[6/10/2017 - 12:10:56:10] 取插機 [AUTO] Start Auto
+[6/10/2017 - 12:10:56:12] 取插機 [AUTO] Start Move To Mark1
+[6/10/2017 - 12:10:56:12] X馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:10:56:13] Y馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:10:56:13] 取插機 [AUTO] Wait Move To Mark1
+[6/10/2017 - 12:10:56:13] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:14] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:15] 取插機 [AUTO] Start Move To Mark2
+[6/10/2017 - 12:10:56:16] X馬達 [BASE] Start AMove To    190.00000 mm
+[6/10/2017 - 12:10:56:16] Y馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:10:56:17] 取插機 [AUTO] Wait Move To Mark2
+[6/10/2017 - 12:10:56:17] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:18] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:52] 取插機 [AUTO] Start Move To Mark3
+[6/10/2017 - 12:10:56:53] X馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:10:56:54] Y馬達 [BASE] Start AMove To    350.00000 mm
+[6/10/2017 - 12:10:56:54] 取插機 [AUTO] Wait Move To Mark3
+[6/10/2017 - 12:10:56:55] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:55] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:123] 取插機 [AUTO] Start Move To Mark4
+[6/10/2017 - 12:10:56:124] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:124] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:124] 取插機 [AUTO] Wait Move To Mark4
+[6/10/2017 - 12:10:56:125] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:125] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:194] 取插機 [AUTO] PCB Start(Nx:0 Ny:0)
+[6/10/2017 - 12:10:56:194] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:10:56:195] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:56:195] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:10:56:196] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:10:56:196] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:197] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:197] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:10:56:197] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:198] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:198] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:10:56:199] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:56:199] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:200] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:10:56:200] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:56:200] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:201] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:56:201] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:56:202] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:56:202] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:56:203] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:203] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:56:204] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:205] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:56:205] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:10:56:206] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:10:56:206] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:206] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:207] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:10:56:207] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:208] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:208] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:10:56:209] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:56:209] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:210] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:10:56:210] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:56:211] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:211] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:56:212] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:56:213] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:56:214] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:56:214] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:215] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:56:215] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:216] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:56:217] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:10:56:217] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:10:56:218] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:218] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:218] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:10:56:219] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:219] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:219] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:10:56:220] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:56:220] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:220] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:10:56:221] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:56:221] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:221] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:56:222] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:56:222] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:56:222] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:56:223] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:223] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:56:224] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:225] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:56:225] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:10:56:226] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:10:56:226] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:226] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:227] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:10:56:227] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:227] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:228] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:10:56:228] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:56:228] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:229] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:10:56:229] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:56:230] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:230] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:56:231] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:56:231] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:56:234] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:56:235] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:236] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:56:236] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:237] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:56:237] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:10:56:238] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:10:56:238] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:10:56:239] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:56:239] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:100.000 Y:101.000
+[6/10/2017 - 12:10:56:240] X馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:56:240] Y馬達 [BASE] Start AMove To    101.00000 mm
+[6/10/2017 - 12:10:56:240] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:56:241] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:241] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:260] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:56:261] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:56:261] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:261] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:10:56:262] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:56:262] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:263] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:56:264] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:10:56:264] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:56:265] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:56:266] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:266] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:56:284] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:10:56:285] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:56:285] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:110.000 Y:102.000
+[6/10/2017 - 12:10:56:286] X馬達 [BASE] Start AMove To    110.00000 mm
+[6/10/2017 - 12:10:56:286] Y馬達 [BASE] Start AMove To    102.00000 mm
+[6/10/2017 - 12:10:56:286] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:56:287] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:287] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:288] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:56:288] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:56:288] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:289] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:10:56:289] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:56:290] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:308] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:56:309] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:10:56:309] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:56:309] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:56:310] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:310] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:56:330] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:10:56:330] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:56:331] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:120.000 Y:103.000
+[6/10/2017 - 12:10:56:331] X馬達 [BASE] Start AMove To    120.00000 mm
+[6/10/2017 - 12:10:56:332] Y馬達 [BASE] Start AMove To    103.00000 mm
+[6/10/2017 - 12:10:56:332] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:56:332] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:333] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:334] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:56:334] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:56:334] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:56:335] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:10:56:336] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:56:336] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:339] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:56:339] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:10:56:340] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:56:340] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:56:340] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:341] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:56:360] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:10:56:360] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:56:361] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:130.000 Y:104.000
+[6/10/2017 - 12:10:56:361] X馬達 [BASE] Start AMove To    130.00000 mm
+[6/10/2017 - 12:10:56:362] Y馬達 [BASE] Start AMove To    104.00000 mm
+[6/10/2017 - 12:10:56:362] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:56:362] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:56:363] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:336] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:57:337] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:57:337] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:337] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:10:57:338] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:57:338] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:339] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:57:340] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:10:57:340] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:57:340] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:57:341] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:341] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:362] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:10:57:363] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:57:364] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:10:57:365] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:10:57:366] 取插機 [AUTO] PCB Start(Nx:1 Ny:0)
+[6/10/2017 - 12:10:57:367] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:10:57:367] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:57:368] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:10:57:369] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:10:57:370] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:370] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:370] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:10:57:371] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:371] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:396] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:10:57:397] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:57:397] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:398] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:10:57:398] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:57:399] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:417] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:57:417] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:57:418] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:57:419] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:420] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:420] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:57:420] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:421] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:57:422] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:10:57:423] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:10:57:423] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:423] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:424] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:10:57:424] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:424] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:425] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:10:57:425] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:57:425] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:426] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:10:57:426] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:57:427] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:446] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:57:446] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:57:447] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:57:447] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:448] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:448] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:57:448] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:449] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:57:450] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:10:57:451] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:10:57:451] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:451] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:452] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:10:57:452] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:452] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:453] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:10:57:453] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:57:454] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:454] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:10:57:454] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:57:455] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:455] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:57:456] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:57:456] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:57:456] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:457] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:458] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:57:458] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:459] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:57:459] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:10:57:460] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:10:57:461] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:461] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:462] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:10:57:462] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:462] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:463] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:10:57:464] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:57:464] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:465] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:10:57:466] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:57:466] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:466] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:57:467] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:57:467] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:57:468] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:468] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:469] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:57:469] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:470] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:57:472] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:10:57:472] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:10:57:473] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:10:57:473] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:57:474] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:200.000 Y:101.000
+[6/10/2017 - 12:10:57:474] X馬達 [BASE] Start AMove To    200.00000 mm
+[6/10/2017 - 12:10:57:474] Y馬達 [BASE] Start AMove To    101.00000 mm
+[6/10/2017 - 12:10:57:475] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:57:475] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:475] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:514] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:57:515] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:57:515] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:516] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:10:57:516] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:57:516] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:517] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:57:518] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:10:57:519] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:57:519] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:57:520] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:520] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:539] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:10:57:540] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:57:541] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:210.000 Y:102.000
+[6/10/2017 - 12:10:57:541] X馬達 [BASE] Start AMove To    210.00000 mm
+[6/10/2017 - 12:10:57:542] Y馬達 [BASE] Start AMove To    102.00000 mm
+[6/10/2017 - 12:10:57:542] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:57:542] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:543] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:543] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:57:544] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:57:544] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:544] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:10:57:545] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:57:545] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:564] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:57:565] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:10:57:565] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:57:566] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:57:566] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:566] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:586] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:10:57:586] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:57:587] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:220.000 Y:103.000
+[6/10/2017 - 12:10:57:587] X馬達 [BASE] Start AMove To    220.00000 mm
+[6/10/2017 - 12:10:57:587] Y馬達 [BASE] Start AMove To    103.00000 mm
+[6/10/2017 - 12:10:57:588] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:57:588] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:588] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:589] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:57:591] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:57:591] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:57:591] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:10:57:591] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:57:591] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:591] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:57:592] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:10:57:592] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:57:592] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:57:593] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:593] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:57:614] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:10:57:616] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:57:616] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:230.000 Y:104.000
+[6/10/2017 - 12:10:57:617] X馬達 [BASE] Start AMove To    230.00000 mm
+[6/10/2017 - 12:10:57:617] Y馬達 [BASE] Start AMove To    104.00000 mm
+[6/10/2017 - 12:10:57:618] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:57:618] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:57:619] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:570] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:58:571] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:58:571] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:571] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:10:58:572] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:58:572] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:572] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:58:573] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:10:58:573] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:58:573] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:58:574] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:574] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:595] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:10:58:596] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:58:596] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:10:58:597] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:10:58:597] 取插機 [AUTO] PCB Start(Nx:0 Ny:1)
+[6/10/2017 - 12:10:58:598] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:10:58:599] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:58:600] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:10:58:600] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:10:58:601] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:601] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:601] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:10:58:602] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:602] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:649] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:10:58:649] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:58:649] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:650] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:10:58:650] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:58:650] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:669] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:58:669] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:58:670] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:58:670] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:671] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:672] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:58:673] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:674] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:58:674] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:10:58:675] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:10:58:675] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:675] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:676] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:10:58:676] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:677] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:677] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:10:58:677] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:58:678] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:679] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:10:58:679] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:58:679] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:698] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:58:698] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:58:698] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:58:699] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:699] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:700] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:58:700] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:701] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:58:702] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:10:58:702] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:10:58:703] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:703] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:704] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:10:58:704] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:704] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:705] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:10:58:705] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:58:706] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:706] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:10:58:706] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:58:707] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:707] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:58:708] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:58:708] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:58:708] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:709] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:709] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:58:710] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:711] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:58:712] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:10:58:712] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:10:58:713] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:713] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:713] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:10:58:714] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:714] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:714] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:10:58:715] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:58:715] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:715] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:10:58:716] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:58:716] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:716] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:58:717] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:58:717] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:58:717] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:718] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:718] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:58:719] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:720] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:58:720] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:10:58:721] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:10:58:721] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:10:58:721] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:58:722] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:100.000 Y:221.000
+[6/10/2017 - 12:10:58:722] X馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:58:723] Y馬達 [BASE] Start AMove To    221.00000 mm
+[6/10/2017 - 12:10:58:723] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:58:724] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:724] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:767] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:58:767] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:58:767] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:768] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:10:58:768] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:58:769] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:769] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:58:770] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:10:58:770] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:58:770] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:58:772] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:772] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:790] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:10:58:791] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:58:792] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:110.000 Y:222.000
+[6/10/2017 - 12:10:58:792] X馬達 [BASE] Start AMove To    110.00000 mm
+[6/10/2017 - 12:10:58:792] Y馬達 [BASE] Start AMove To    222.00000 mm
+[6/10/2017 - 12:10:58:793] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:58:793] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:793] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:794] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:58:794] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:58:795] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:795] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:10:58:795] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:58:796] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:814] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:58:815] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:10:58:815] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:58:816] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:58:816] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:817] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:836] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:10:58:837] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:58:838] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:120.000 Y:223.000
+[6/10/2017 - 12:10:58:839] X馬達 [BASE] Start AMove To    120.00000 mm
+[6/10/2017 - 12:10:58:839] Y馬達 [BASE] Start AMove To    223.00000 mm
+[6/10/2017 - 12:10:58:839] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:58:840] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:840] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:841] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:58:842] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:58:842] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:58:842] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:10:58:843] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:58:843] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:843] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:58:844] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:10:58:844] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:58:844] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:58:845] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:845] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:58:866] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:10:58:866] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:58:867] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:130.000 Y:224.000
+[6/10/2017 - 12:10:58:867] X馬達 [BASE] Start AMove To    130.00000 mm
+[6/10/2017 - 12:10:58:867] Y馬達 [BASE] Start AMove To    224.00000 mm
+[6/10/2017 - 12:10:58:868] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:58:868] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:58:868] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:842] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:10:59:842] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:10:59:843] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:844] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:10:59:844] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:10:59:845] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:845] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:10:59:846] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:10:59:846] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:10:59:846] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:10:59:847] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:847] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:59:866] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:10:59:867] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:59:868] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:10:59:868] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:10:59:869] 取插機 [AUTO] PCB Start(Nx:1 Ny:1)
+[6/10/2017 - 12:10:59:869] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:10:59:870] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:59:870] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:10:59:871] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:10:59:871] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:872] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:872] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:10:59:872] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:873] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:916] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:10:59:917] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:59:917] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:917] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:10:59:918] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:59:918] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:937] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:59:937] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:59:938] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:59:939] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:59:939] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:940] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:59:940] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:941] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:59:942] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:10:59:943] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:10:59:943] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:944] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:944] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:10:59:944] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:945] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:945] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:10:59:946] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:59:946] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:946] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:10:59:947] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:59:947] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:966] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:59:966] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:59:967] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:59:967] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:59:968] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:968] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:59:969] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:970] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:59:970] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:10:59:971] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:10:59:971] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:971] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:972] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:10:59:972] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:972] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:973] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:10:59:973] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:59:974] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:974] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:10:59:975] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:59:975] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:976] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:59:977] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:59:977] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:59:978] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:59:978] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:979] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:59:980] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:981] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:59:981] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:10:59:982] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:10:59:982] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:983] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:983] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:10:59:983] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:984] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:984] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:10:59:985] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:10:59:985] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:985] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:10:59:985] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:10:59:986] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:986] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:10:59:987] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:10:59:987] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:10:59:987] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:10:59:988] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:10:59:988] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:10:59:989] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:990] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:10:59:991] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:10:59:991] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:10:59:992] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:10:59:992] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:10:59:993] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:200.000 Y:221.000
+[6/10/2017 - 12:10:59:993] X馬達 [BASE] Start AMove To    200.00000 mm
+[6/10/2017 - 12:10:59:994] Y馬達 [BASE] Start AMove To    221.00000 mm
+[6/10/2017 - 12:10:59:994] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:10:59:995] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:10:59:995] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:40] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:0:40] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:0:40] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:0:41] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:11:0:41] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:0:41] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:42] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:0:42] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:11:0:43] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:0:43] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:0:43] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:44] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:0:63] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:11:0:64] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:0:64] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:210.000 Y:222.000
+[6/10/2017 - 12:11:0:65] X馬達 [BASE] Start AMove To    210.00000 mm
+[6/10/2017 - 12:11:0:65] Y馬達 [BASE] Start AMove To    222.00000 mm
+[6/10/2017 - 12:11:0:65] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:0:66] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:66] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:68] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:0:68] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:0:69] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:0:69] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:11:0:69] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:0:70] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:88] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:0:89] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:11:0:89] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:0:89] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:0:90] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:90] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:0:109] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:11:0:110] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:0:111] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:220.000 Y:223.000
+[6/10/2017 - 12:11:0:111] X馬達 [BASE] Start AMove To    220.00000 mm
+[6/10/2017 - 12:11:0:111] Y馬達 [BASE] Start AMove To    223.00000 mm
+[6/10/2017 - 12:11:0:112] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:0:112] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:112] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:113] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:0:114] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:0:114] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:0:114] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:11:0:115] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:0:115] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:115] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:0:116] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:11:0:116] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:0:116] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:0:117] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:117] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:0:137] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:11:0:138] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:0:139] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:230.000 Y:224.000
+[6/10/2017 - 12:11:0:139] X馬達 [BASE] Start AMove To    230.00000 mm
+[6/10/2017 - 12:11:0:140] Y馬達 [BASE] Start AMove To    224.00000 mm
+[6/10/2017 - 12:11:0:140] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:0:141] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:0:141] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:93] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:1:93] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:1:93] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:94] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:11:1:94] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:1:94] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:95] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:1:95] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:11:1:96] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:1:96] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:1:96] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:97] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:116] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:11:1:116] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:1:117] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:11:1:118] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:11:1:118] 取插機 [AUTO] PCB Start(Nx:0 Ny:2)
+[6/10/2017 - 12:11:1:119] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:11:1:119] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:1:120] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:11:1:120] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:11:1:121] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:121] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:121] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:11:1:122] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:122] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:167] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:11:1:167] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:1:168] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:168] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:11:1:168] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:1:169] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:187] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:1:188] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:1:188] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:1:189] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:191] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:192] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:1:192] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:193] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:1:194] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:11:1:195] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:11:1:195] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:195] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:196] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:11:1:196] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:197] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:198] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:11:1:198] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:1:198] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:199] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:11:1:199] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:1:199] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:218] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:1:219] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:1:219] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:1:220] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:220] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:221] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:1:221] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:222] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:1:223] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:11:1:223] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:11:1:224] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:224] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:224] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:11:1:225] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:225] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:226] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:11:1:226] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:1:226] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:227] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:11:1:227] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:1:227] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:228] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:1:228] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:1:229] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:1:229] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:230] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:230] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:1:230] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:233] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:1:234] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:11:1:235] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:11:1:235] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:235] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:236] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:11:1:236] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:236] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:237] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:11:1:237] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:1:237] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:238] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:11:1:238] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:1:238] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:239] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:1:239] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:1:240] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:1:241] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:241] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:242] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:1:242] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:243] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:1:244] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:11:1:245] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:11:1:245] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:11:1:246] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:1:247] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:100.000 Y:341.000
+[6/10/2017 - 12:11:1:247] X馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:1:247] Y馬達 [BASE] Start AMove To    341.00000 mm
+[6/10/2017 - 12:11:1:248] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:1:248] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:248] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:316] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:1:317] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:1:317] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:318] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:11:1:318] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:1:318] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:319] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:1:319] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:11:1:320] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:1:320] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:1:320] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:321] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:340] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:11:1:340] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:1:341] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:110.000 Y:342.000
+[6/10/2017 - 12:11:1:341] X馬達 [BASE] Start AMove To    110.00000 mm
+[6/10/2017 - 12:11:1:342] Y馬達 [BASE] Start AMove To    342.00000 mm
+[6/10/2017 - 12:11:1:342] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:1:342] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:343] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:344] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:1:344] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:1:344] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:345] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:11:1:345] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:1:345] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:364] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:1:366] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:11:1:367] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:1:367] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:1:368] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:368] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:386] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:11:1:387] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:1:387] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:120.000 Y:343.000
+[6/10/2017 - 12:11:1:388] X馬達 [BASE] Start AMove To    120.00000 mm
+[6/10/2017 - 12:11:1:388] Y馬達 [BASE] Start AMove To    343.00000 mm
+[6/10/2017 - 12:11:1:388] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:1:389] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:389] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:390] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:1:390] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:1:391] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:1:391] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:11:1:391] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:1:392] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:392] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:1:393] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:11:1:393] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:1:393] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:1:394] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:394] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:1:414] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:11:1:415] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:1:416] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:130.000 Y:344.000
+[6/10/2017 - 12:11:1:416] X馬達 [BASE] Start AMove To    130.00000 mm
+[6/10/2017 - 12:11:1:416] Y馬達 [BASE] Start AMove To    344.00000 mm
+[6/10/2017 - 12:11:1:417] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:1:417] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:1:418] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:417] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:2:417] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:2:417] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:418] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:11:2:418] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:2:418] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:419] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:2:419] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:11:2:419] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:2:420] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:2:420] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:420] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:440] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:11:2:440] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:2:441] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:11:2:441] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:11:2:443] 取插機 [AUTO] PCB Start(Nx:1 Ny:2)
+[6/10/2017 - 12:11:2:443] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:11:2:444] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:2:444] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:11:2:445] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:11:2:445] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:446] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:446] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:11:2:447] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:447] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:514] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:11:2:515] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:2:515] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:515] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:11:2:516] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:2:516] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:535] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:2:535] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:2:536] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:2:536] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:537] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:537] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:2:538] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:539] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:2:539] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:11:2:540] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:11:2:540] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:541] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:541] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:11:2:541] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:542] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:542] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:11:2:543] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:2:543] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:544] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:11:2:545] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:2:545] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:563] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:2:564] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:2:564] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:2:564] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:565] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:565] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:2:566] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:567] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:2:567] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:11:2:568] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:11:2:568] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:569] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:569] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:11:2:569] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:570] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:570] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:11:2:571] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:2:571] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:571] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:11:2:572] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:2:572] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:573] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:2:574] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:2:574] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:2:575] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:575] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:576] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:2:576] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:577] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:2:577] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:11:2:578] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:11:2:578] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:579] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:579] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:11:2:579] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:580] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:580] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:11:2:580] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:11:2:581] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:581] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:11:2:581] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:11:2:582] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:582] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:11:2:583] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:11:2:583] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:11:2:583] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:584] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:584] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:11:2:584] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:586] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:11:2:586] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:11:2:587] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:11:2:588] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:11:2:588] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:2:589] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:200.000 Y:341.000
+[6/10/2017 - 12:11:2:589] X馬達 [BASE] Start AMove To    200.00000 mm
+[6/10/2017 - 12:11:2:589] Y馬達 [BASE] Start AMove To    341.00000 mm
+[6/10/2017 - 12:11:2:589] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:2:590] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:590] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:701] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:2:702] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:2:702] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:702] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:11:2:703] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:2:703] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:703] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:2:704] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:11:2:704] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:2:704] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:2:705] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:705] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:727] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:11:2:728] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:2:728] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:210.000 Y:342.000
+[6/10/2017 - 12:11:2:729] X馬達 [BASE] Start AMove To    210.00000 mm
+[6/10/2017 - 12:11:2:729] Y馬達 [BASE] Start AMove To    342.00000 mm
+[6/10/2017 - 12:11:2:730] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:2:730] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:730] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:731] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:2:731] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:2:732] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:732] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:11:2:732] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:2:733] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:751] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:2:752] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:11:2:752] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:2:753] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:2:754] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:754] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:774] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:11:2:774] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:2:775] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:220.000 Y:343.000
+[6/10/2017 - 12:11:2:775] X馬達 [BASE] Start AMove To    220.00000 mm
+[6/10/2017 - 12:11:2:776] Y馬達 [BASE] Start AMove To    343.00000 mm
+[6/10/2017 - 12:11:2:776] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:2:776] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:777] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:778] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:2:778] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:2:778] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:2:779] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:11:2:779] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:2:779] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:780] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:2:780] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:11:2:781] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:2:781] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:2:781] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:782] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:2:801] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:11:2:801] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:2:802] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:230.000 Y:344.000
+[6/10/2017 - 12:11:2:802] X馬達 [BASE] Start AMove To    230.00000 mm
+[6/10/2017 - 12:11:2:803] Y馬達 [BASE] Start AMove To    344.00000 mm
+[6/10/2017 - 12:11:2:803] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:11:2:803] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:2:804] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:3:756] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:11:3:757] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:11:3:757] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:11:3:758] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:11:3:758] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:11:3:758] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:3:759] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:11:3:759] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:11:3:760] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:11:3:760] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:11:3:761] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:11:3:761] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:11:3:780] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:11:3:781] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:11:3:781] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:11:3:782] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:13:2:851] 取插機 [AUTO] Start Auto
+[6/10/2017 - 12:13:2:852] 取插機 [AUTO] Start Move To Mark1
+[6/10/2017 - 12:13:2:853] X馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:13:2:853] Y馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:13:2:853] 取插機 [AUTO] Wait Move To Mark1
+[6/10/2017 - 12:13:2:854] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:2:854] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:2:919] 取插機 [AUTO] Start Move To Mark2
+[6/10/2017 - 12:13:2:920] X馬達 [BASE] Start AMove To    190.00000 mm
+[6/10/2017 - 12:13:2:920] Y馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:13:2:920] 取插機 [AUTO] Wait Move To Mark2
+[6/10/2017 - 12:13:2:921] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:2:921] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:2:956] 取插機 [AUTO] Start Move To Mark3
+[6/10/2017 - 12:13:2:956] X馬達 [BASE] Start AMove To     10.00000 mm
+[6/10/2017 - 12:13:2:957] Y馬達 [BASE] Start AMove To    350.00000 mm
+[6/10/2017 - 12:13:2:957] 取插機 [AUTO] Wait Move To Mark3
+[6/10/2017 - 12:13:2:957] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:2:958] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:25] 取插機 [AUTO] Start Move To Mark4
+[6/10/2017 - 12:13:3:26] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:26] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:26] 取插機 [AUTO] Wait Move To Mark4
+[6/10/2017 - 12:13:3:27] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:28] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:96] 取插機 [AUTO] PCB Start(Nx:0 Ny:0)
+[6/10/2017 - 12:13:3:96] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:3:97] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:3:97] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:13:3:98] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:13:3:98] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:99] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:99] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:13:3:100] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:100] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:101] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:13:3:101] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:3:102] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:102] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:13:3:102] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:3:103] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:121] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:3:122] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:3:122] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:3:123] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:3:124] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:124] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:3:125] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:126] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:3:126] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:13:3:127] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:13:3:127] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:128] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:128] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:13:3:128] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:129] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:129] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:13:3:130] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:3:130] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:130] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:13:3:131] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:3:131] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:150] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:3:150] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:3:151] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:3:151] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:3:153] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:154] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:3:154] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:155] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:3:156] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:13:3:156] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:13:3:157] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:157] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:158] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:13:3:158] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:158] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:159] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:13:3:159] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:3:160] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:160] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:13:3:160] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:3:161] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:161] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:3:162] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:3:163] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:3:163] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:3:164] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:164] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:3:164] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:165] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:3:166] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:13:3:167] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:13:3:167] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:167] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:168] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:13:3:168] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:168] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:169] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:13:3:169] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:3:169] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:170] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:13:3:170] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:3:170] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:171] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:3:171] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:3:172] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:3:172] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:3:173] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:173] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:3:173] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:174] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:3:175] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:13:3:175] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:13:3:176] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:13:3:176] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:3:177] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:100.000 Y:101.000
+[6/10/2017 - 12:13:3:177] X馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:3:177] Y馬達 [BASE] Start AMove To    101.00000 mm
+[6/10/2017 - 12:13:3:178] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:3:178] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:178] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:198] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:3:198] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:3:198] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:199] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:13:3:199] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:3:199] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:200] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:3:200] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:13:3:201] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:3:201] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:3:201] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:202] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:3:221] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:13:3:221] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:3:222] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:110.000 Y:102.000
+[6/10/2017 - 12:13:3:222] X馬達 [BASE] Start AMove To    110.00000 mm
+[6/10/2017 - 12:13:3:223] Y馬達 [BASE] Start AMove To    102.00000 mm
+[6/10/2017 - 12:13:3:223] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:3:223] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:224] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:225] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:3:225] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:3:225] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:226] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:13:3:226] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:3:226] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:245] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:3:246] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:13:3:246] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:3:246] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:3:247] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:248] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:3:267] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:13:3:267] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:3:268] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:120.000 Y:103.000
+[6/10/2017 - 12:13:3:268] X馬達 [BASE] Start AMove To    120.00000 mm
+[6/10/2017 - 12:13:3:269] Y馬達 [BASE] Start AMove To    103.00000 mm
+[6/10/2017 - 12:13:3:269] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:3:270] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:270] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:271] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:3:271] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:3:271] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:3:272] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:13:3:272] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:3:272] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:273] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:3:273] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:13:3:274] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:3:274] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:3:274] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:275] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:3:294] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:13:3:295] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:3:296] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:130.000 Y:104.000
+[6/10/2017 - 12:13:3:296] X馬達 [BASE] Start AMove To    130.00000 mm
+[6/10/2017 - 12:13:3:296] Y馬達 [BASE] Start AMove To    104.00000 mm
+[6/10/2017 - 12:13:3:297] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:3:297] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:3:297] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:270] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:4:271] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:4:271] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:272] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:13:4:272] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:4:272] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:273] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:4:273] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:13:4:274] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:4:274] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:4:274] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:275] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:294] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:13:4:295] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:4:295] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:4:296] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:13:4:297] 取插機 [AUTO] PCB Start(Nx:1 Ny:0)
+[6/10/2017 - 12:13:4:297] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:4:298] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:4:299] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:13:4:299] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:13:4:300] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:300] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:301] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:13:4:301] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:301] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:326] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:13:4:326] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:4:326] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:327] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:13:4:327] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:4:327] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:346] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:4:347] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:4:347] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:4:348] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:348] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:349] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:4:349] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:351] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:4:352] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:13:4:352] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:13:4:353] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:353] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:354] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:13:4:354] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:355] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:356] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:13:4:356] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:4:356] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:357] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:13:4:357] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:4:357] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:377] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:4:378] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:4:378] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:4:378] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:379] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:379] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:4:380] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:381] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:4:381] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:13:4:382] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:13:4:383] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:383] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:383] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:13:4:384] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:384] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:385] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:13:4:386] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:4:386] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:387] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:13:4:387] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:4:387] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:388] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:4:388] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:4:389] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:4:389] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:390] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:391] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:4:391] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:392] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:4:393] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:13:4:394] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:13:4:394] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:395] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:395] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:13:4:396] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:396] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:397] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:13:4:397] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:4:398] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:398] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:13:4:398] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:4:399] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:399] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:4:400] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:4:400] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:4:401] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:401] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:402] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:4:402] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:403] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:4:404] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:13:4:405] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:13:4:405] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:13:4:406] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:4:406] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:200.000 Y:101.000
+[6/10/2017 - 12:13:4:407] X馬達 [BASE] Start AMove To    200.00000 mm
+[6/10/2017 - 12:13:4:407] Y馬達 [BASE] Start AMove To    101.00000 mm
+[6/10/2017 - 12:13:4:407] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:4:408] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:408] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:447] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:4:448] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:4:448] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:449] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:13:4:449] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:4:449] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:450] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:4:450] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:13:4:451] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:4:451] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:4:452] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:452] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:471] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:13:4:472] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:4:472] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:210.000 Y:102.000
+[6/10/2017 - 12:13:4:473] X馬達 [BASE] Start AMove To    210.00000 mm
+[6/10/2017 - 12:13:4:473] Y馬達 [BASE] Start AMove To    102.00000 mm
+[6/10/2017 - 12:13:4:473] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:4:474] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:474] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:475] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:4:475] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:4:476] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:476] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:13:4:476] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:4:477] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:495] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:4:496] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:13:4:496] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:4:497] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:4:497] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:497] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:517] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:13:4:517] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:4:518] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:220.000 Y:103.000
+[6/10/2017 - 12:13:4:519] X馬達 [BASE] Start AMove To    220.00000 mm
+[6/10/2017 - 12:13:4:519] Y馬達 [BASE] Start AMove To    103.00000 mm
+[6/10/2017 - 12:13:4:520] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:4:520] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:521] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:522] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:4:522] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:4:523] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:4:523] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:13:4:524] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:4:524] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:525] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:4:526] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:13:4:526] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:4:527] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:4:528] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:528] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:4:546] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:13:4:547] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:4:547] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:230.000 Y:104.000
+[6/10/2017 - 12:13:4:547] X馬達 [BASE] Start AMove To    230.00000 mm
+[6/10/2017 - 12:13:4:548] Y馬達 [BASE] Start AMove To    104.00000 mm
+[6/10/2017 - 12:13:4:548] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:4:548] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:4:549] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:502] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:5:503] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:5:503] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:504] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:13:5:504] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:5:504] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:505] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:5:505] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:13:5:506] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:5:506] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:5:506] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:507] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:526] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:13:5:527] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:5:527] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:5:528] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:13:5:528] 取插機 [AUTO] PCB Start(Nx:0 Ny:1)
+[6/10/2017 - 12:13:5:529] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:5:529] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:5:530] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:13:5:530] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:13:5:531] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:531] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:531] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:13:5:532] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:532] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:577] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:13:5:577] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:5:578] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:578] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:13:5:578] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:5:579] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:597] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:5:598] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:5:598] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:5:599] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:599] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:600] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:5:601] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:602] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:5:603] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:13:5:603] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:13:5:604] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:604] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:604] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:13:5:605] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:605] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:606] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:13:5:606] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:5:606] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:607] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:13:5:607] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:5:607] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:626] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:5:627] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:5:627] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:5:628] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:628] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:629] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:5:629] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:630] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:5:632] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:13:5:633] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:13:5:633] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:633] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:634] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:13:5:635] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:635] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:636] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:13:5:637] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:5:637] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:638] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:13:5:639] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:5:639] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:641] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:5:642] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:5:642] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:5:643] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:644] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:645] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:5:646] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:648] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:5:649] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:13:5:649] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:13:5:650] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:650] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:651] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:13:5:651] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:651] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:652] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:13:5:653] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:5:653] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:654] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:13:5:654] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:5:654] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:655] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:5:656] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:5:656] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:5:657] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:657] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:658] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:5:658] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:659] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:5:660] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:13:5:660] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:13:5:661] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:13:5:661] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:5:662] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:100.000 Y:221.000
+[6/10/2017 - 12:13:5:662] X馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:5:662] Y馬達 [BASE] Start AMove To    221.00000 mm
+[6/10/2017 - 12:13:5:663] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:5:663] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:663] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:707] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:5:707] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:5:707] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:708] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:13:5:708] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:5:708] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:709] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:5:709] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:13:5:710] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:5:710] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:5:711] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:712] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:730] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:13:5:731] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:5:731] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:110.000 Y:222.000
+[6/10/2017 - 12:13:5:732] X馬達 [BASE] Start AMove To    110.00000 mm
+[6/10/2017 - 12:13:5:732] Y馬達 [BASE] Start AMove To    222.00000 mm
+[6/10/2017 - 12:13:5:732] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:5:733] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:733] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:734] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:5:734] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:5:735] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:736] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:13:5:736] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:5:736] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:756] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:5:756] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:13:5:757] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:5:757] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:5:757] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:758] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:777] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:13:5:778] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:5:778] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:120.000 Y:223.000
+[6/10/2017 - 12:13:5:779] X馬達 [BASE] Start AMove To    120.00000 mm
+[6/10/2017 - 12:13:5:779] Y馬達 [BASE] Start AMove To    223.00000 mm
+[6/10/2017 - 12:13:5:779] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:5:780] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:780] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:781] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:5:781] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:5:782] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:5:782] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:13:5:782] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:5:783] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:783] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:5:784] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:13:5:784] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:5:784] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:5:785] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:785] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:5:804] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:13:5:806] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:5:806] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:130.000 Y:224.000
+[6/10/2017 - 12:13:5:807] X馬達 [BASE] Start AMove To    130.00000 mm
+[6/10/2017 - 12:13:5:807] Y馬達 [BASE] Start AMove To    224.00000 mm
+[6/10/2017 - 12:13:5:808] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:5:809] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:5:809] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:781] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:6:781] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:6:782] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:782] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:13:6:782] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:6:783] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:783] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:6:784] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:13:6:784] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:6:785] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:6:785] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:785] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:6:805] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:13:6:805] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:6:806] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:6:806] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:13:6:807] 取插機 [AUTO] PCB Start(Nx:1 Ny:1)
+[6/10/2017 - 12:13:6:807] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:6:808] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:6:809] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:13:6:809] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:13:6:810] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:810] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:812] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:13:6:812] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:813] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:855] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:13:6:855] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:6:855] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:856] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:13:6:856] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:6:856] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:877] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:6:877] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:6:878] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:6:879] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:6:879] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:880] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:6:881] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:882] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:6:883] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:13:6:884] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:13:6:885] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:886] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:886] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:13:6:887] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:887] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:888] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:13:6:888] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:6:888] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:889] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:13:6:889] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:6:889] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:908] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:6:909] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:6:909] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:6:910] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:6:910] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:911] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:6:911] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:912] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:6:913] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:13:6:913] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:13:6:914] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:914] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:914] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:13:6:915] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:915] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:916] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:13:6:916] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:6:916] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:917] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:13:6:917] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:6:917] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:918] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:6:919] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:6:919] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:6:920] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:6:920] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:921] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:6:921] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:922] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:6:925] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:13:6:926] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:13:6:926] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:926] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:927] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:13:6:928] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:928] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:929] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:13:6:930] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:6:930] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:930] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:13:6:931] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:6:931] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:933] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:6:933] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:6:933] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:6:935] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:6:935] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:936] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:6:936] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:937] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:6:938] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:13:6:938] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:13:6:939] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:13:6:939] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:6:940] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:200.000 Y:221.000
+[6/10/2017 - 12:13:6:940] X馬達 [BASE] Start AMove To    200.00000 mm
+[6/10/2017 - 12:13:6:941] Y馬達 [BASE] Start AMove To    221.00000 mm
+[6/10/2017 - 12:13:6:941] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:6:941] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:942] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:985] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:6:985] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:6:985] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:6:986] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:13:6:986] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:6:986] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:987] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:6:988] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:13:6:988] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:6:988] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:6:989] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:6:989] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:7:8] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:13:7:9] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:7:9] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:210.000 Y:222.000
+[6/10/2017 - 12:13:7:10] X馬達 [BASE] Start AMove To    210.00000 mm
+[6/10/2017 - 12:13:7:10] Y馬達 [BASE] Start AMove To    222.00000 mm
+[6/10/2017 - 12:13:7:10] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:7:11] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:11] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:12] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:7:12] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:7:13] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:7:13] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:13:7:14] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:7:14] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:33] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:7:34] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:13:7:34] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:7:35] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:7:35] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:36] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:7:55] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:13:7:55] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:7:56] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:220.000 Y:223.000
+[6/10/2017 - 12:13:7:57] X馬達 [BASE] Start AMove To    220.00000 mm
+[6/10/2017 - 12:13:7:57] Y馬達 [BASE] Start AMove To    223.00000 mm
+[6/10/2017 - 12:13:7:57] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:7:58] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:58] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:59] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:7:59] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:7:59] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:7:60] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:13:7:60] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:7:61] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:61] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:7:62] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:13:7:62] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:7:62] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:7:63] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:63] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:7:83] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:13:7:83] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:7:84] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:230.000 Y:224.000
+[6/10/2017 - 12:13:7:85] X馬達 [BASE] Start AMove To    230.00000 mm
+[6/10/2017 - 12:13:7:85] Y馬達 [BASE] Start AMove To    224.00000 mm
+[6/10/2017 - 12:13:7:86] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:7:87] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:7:87] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:38] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:8:39] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:8:39] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:40] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:13:8:41] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:8:41] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:41] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:8:42] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:13:8:42] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:8:42] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:8:43] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:43] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:64] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:13:8:64] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:8:65] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:8:65] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:13:8:66] 取插機 [AUTO] PCB Start(Nx:0 Ny:2)
+[6/10/2017 - 12:13:8:66] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:8:67] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:8:68] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:13:8:69] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:13:8:69] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:70] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:70] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:13:8:70] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:71] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:115] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:13:8:115] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:8:115] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:116] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:13:8:116] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:8:117] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:135] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:8:136] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:8:136] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:8:137] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:138] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:138] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:8:138] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:139] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:8:140] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:13:8:140] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:13:8:141] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:141] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:142] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:13:8:142] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:142] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:143] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:13:8:143] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:8:143] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:144] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:13:8:144] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:8:144] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:163] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:8:164] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:8:164] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:8:165] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:166] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:167] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:8:167] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:168] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:8:169] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:13:8:170] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:13:8:171] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:171] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:172] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:13:8:172] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:172] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:173] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:13:8:174] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:8:174] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:174] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:13:8:175] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:8:175] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:176] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:8:177] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:8:177] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:8:178] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:178] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:179] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:8:179] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:180] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:8:181] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:13:8:181] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:13:8:182] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:182] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:182] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:13:8:183] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:183] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:184] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:13:8:184] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:8:184] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:185] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:13:8:185] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:8:185] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:186] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:8:186] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:8:187] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:8:187] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:188] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:188] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:8:188] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:189] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:8:190] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:13:8:190] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:13:8:191] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:13:8:193] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:8:193] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:100.000 Y:341.000
+[6/10/2017 - 12:13:8:194] X馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:8:194] Y馬達 [BASE] Start AMove To    341.00000 mm
+[6/10/2017 - 12:13:8:194] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:8:195] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:195] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:262] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:8:263] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:8:263] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:263] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:13:8:264] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:8:264] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:265] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:8:265] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:13:8:266] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:8:266] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:8:267] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:267] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:287] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:13:8:288] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:8:289] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:110.000 Y:342.000
+[6/10/2017 - 12:13:8:289] X馬達 [BASE] Start AMove To    110.00000 mm
+[6/10/2017 - 12:13:8:289] Y馬達 [BASE] Start AMove To    342.00000 mm
+[6/10/2017 - 12:13:8:290] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:8:290] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:290] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:291] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:8:291] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:8:292] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:292] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:13:8:292] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:8:293] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:311] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:8:312] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:13:8:312] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:8:313] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:8:313] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:313] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:333] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:13:8:334] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:8:335] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:120.000 Y:343.000
+[6/10/2017 - 12:13:8:335] X馬達 [BASE] Start AMove To    120.00000 mm
+[6/10/2017 - 12:13:8:336] Y馬達 [BASE] Start AMove To    343.00000 mm
+[6/10/2017 - 12:13:8:336] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:8:337] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:337] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:339] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:8:339] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:8:339] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:8:340] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:13:8:340] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:8:340] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:341] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:8:341] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:13:8:342] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:8:342] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:8:342] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:343] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:8:362] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:13:8:363] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:8:363] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:130.000 Y:344.000
+[6/10/2017 - 12:13:8:363] X馬達 [BASE] Start AMove To    130.00000 mm
+[6/10/2017 - 12:13:8:364] Y馬達 [BASE] Start AMove To    344.00000 mm
+[6/10/2017 - 12:13:8:364] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:8:364] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:8:365] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:338] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:9:339] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:9:339] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:339] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:13:9:340] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:9:340] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:341] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:9:341] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:13:9:342] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:9:342] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:9:343] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:343] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:362] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:13:9:362] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:9:363] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:9:364] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:13:9:364] 取插機 [AUTO] PCB Start(Nx:1 Ny:2)
+[6/10/2017 - 12:13:9:365] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:9:365] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:9:366] 取插機 [AUTO] Start Arm2 To Feeder1
+[6/10/2017 - 12:13:9:367] 取插機 [AUTO] Wait all Arm Up To Feeder1
+[6/10/2017 - 12:13:9:367] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:367] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:368] 取插機 [AUTO] Wait Move To Feeder1
+[6/10/2017 - 12:13:9:368] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:368] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:436] 取插機 [AUTO] Start Arm2 Pick Feeder1
+[6/10/2017 - 12:13:9:436] 取放臂2 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:9:437] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:437] 取插機 [AUTO] Wait Arm2 Pick [Recipe1:C1]
+[6/10/2017 - 12:13:9:438] 取放臂2 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:9:438] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:456] 取放臂2電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:9:457] 取放臂2 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:9:457] 取放臂2電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:9:457] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:458] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:459] 取放臂2 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:9:459] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:460] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:9:461] 取插機 [AUTO] Start Arm3 To Feeder4
+[6/10/2017 - 12:13:9:461] 取插機 [AUTO] Wait all Arm Up To Feeder4
+[6/10/2017 - 12:13:9:462] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:462] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:462] 取插機 [AUTO] Wait Move To Feeder4
+[6/10/2017 - 12:13:9:463] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:463] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:464] 取插機 [AUTO] Start Arm3 Pick Feeder4
+[6/10/2017 - 12:13:9:464] 取放臂3 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:9:464] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:465] 取插機 [AUTO] Wait Arm3 Pick [Recipe4:C1]
+[6/10/2017 - 12:13:9:465] 取放臂3 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:9:465] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:486] 取放臂3電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:9:487] 取放臂3 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:9:488] 取放臂3電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:9:489] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:490] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:491] 取放臂3 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:9:491] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:493] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:9:493] 取插機 [AUTO] Start Arm4 To Feeder2
+[6/10/2017 - 12:13:9:494] 取插機 [AUTO] Wait all Arm Up To Feeder2
+[6/10/2017 - 12:13:9:494] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:495] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:495] 取插機 [AUTO] Wait Move To Feeder2
+[6/10/2017 - 12:13:9:495] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:496] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:496] 取插機 [AUTO] Start Arm4 Pick Feeder2
+[6/10/2017 - 12:13:9:496] 取放臂4 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:9:497] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:497] 取插機 [AUTO] Wait Arm4 Pick [Recipe2:R1]
+[6/10/2017 - 12:13:9:497] 取放臂4 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:9:498] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:498] 取放臂4電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:9:499] 取放臂4 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:9:499] 取放臂4電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:9:499] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:500] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:500] 取放臂4 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:9:500] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:501] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:9:502] 取插機 [AUTO] Start Arm5 To Feeder5
+[6/10/2017 - 12:13:9:502] 取插機 [AUTO] Wait all Arm Up To Feeder5
+[6/10/2017 - 12:13:9:503] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:503] Y馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:503] 取插機 [AUTO] Wait Move To Feeder5
+[6/10/2017 - 12:13:9:504] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:504] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:505] 取插機 [AUTO] Start Arm5 Pick Feeder5
+[6/10/2017 - 12:13:9:505] 取放臂5 [AUTO] Down To Feeder
+[6/10/2017 - 12:13:9:506] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:506] 取插機 [AUTO] Wait Arm5 Pick [Recipe3:R1]
+[6/10/2017 - 12:13:9:506] 取放臂5 [AUTO] Wait Z then Pick Component
+[6/10/2017 - 12:13:9:507] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:507] 取放臂5電磁閥 [BASE] Start Open
+[6/10/2017 - 12:13:9:508] 取放臂5 [AUTO] Wait Valve then UpTo CCDPos
+[6/10/2017 - 12:13:9:508] 取放臂5電磁閥 [BASE] Wait Open
+[6/10/2017 - 12:13:9:508] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:509] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:510] 取放臂5 [AUTO] Wait Arm Up
+[6/10/2017 - 12:13:9:510] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:511] 取插機 [AUTO] PreArrange Feeder
+[6/10/2017 - 12:13:9:511] 取插機 [AUTO] Start Align Component
+[6/10/2017 - 12:13:9:512] 取插機 [AUTO] Wait Align StartPos
+[6/10/2017 - 12:13:9:512] 取插機 [AUTO] Wait Align EndPos
+[6/10/2017 - 12:13:9:513] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:9:514] 取插機 [AUTO] Move To PluginPos [Recipe1] Arm2 X:200.000 Y:341.000
+[6/10/2017 - 12:13:9:514] X馬達 [BASE] Start AMove To    200.00000 mm
+[6/10/2017 - 12:13:9:514] Y馬達 [BASE] Start AMove To    341.00000 mm
+[6/10/2017 - 12:13:9:515] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:9:515] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:515] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:583] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:9:584] 取放臂2 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:9:584] Z2馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:585] 取插機 [AUTO] Check Plug Component [Recipe1] Arm2
+[6/10/2017 - 12:13:9:585] 取放臂2 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:9:585] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:586] 取放臂2電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:9:586] 取放臂2 [AUTO] Wait Z up
+[6/10/2017 - 12:13:9:587] Z2馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:9:587] 取放臂2電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:9:587] Z2馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:588] 取放臂2電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:607] 取插機 [AUTO] Plug Recipe0 Complete
+[6/10/2017 - 12:13:9:608] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:9:608] 取插機 [AUTO] Move To PluginPos [Recipe2] Arm4 X:210.000 Y:342.000
+[6/10/2017 - 12:13:9:609] X馬達 [BASE] Start AMove To    210.00000 mm
+[6/10/2017 - 12:13:9:609] Y馬達 [BASE] Start AMove To    342.00000 mm
+[6/10/2017 - 12:13:9:609] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:9:610] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:610] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:611] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:9:611] 取放臂4 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:9:612] Z4馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:612] 取插機 [AUTO] Check Plug Component [Recipe2] Arm4
+[6/10/2017 - 12:13:9:613] 取放臂4 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:9:613] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:633] 取放臂4電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:9:634] 取放臂4 [AUTO] Wait Z up
+[6/10/2017 - 12:13:9:634] Z4馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:9:634] 取放臂4電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:9:635] Z4馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:635] 取放臂4電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:654] 取插機 [AUTO] Plug Recipe1 Complete
+[6/10/2017 - 12:13:9:655] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:9:656] 取插機 [AUTO] Move To PluginPos [Recipe3] Arm5 X:220.000 Y:343.000
+[6/10/2017 - 12:13:9:656] X馬達 [BASE] Start AMove To    220.00000 mm
+[6/10/2017 - 12:13:9:656] Y馬達 [BASE] Start AMove To    343.00000 mm
+[6/10/2017 - 12:13:9:657] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:9:658] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:658] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:659] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:9:659] 取放臂5 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:9:660] Z5馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:9:660] 取插機 [AUTO] Check Plug Component [Recipe3] Arm5
+[6/10/2017 - 12:13:9:661] 取放臂5 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:9:661] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:662] 取放臂5電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:9:662] 取放臂5 [AUTO] Wait Z up
+[6/10/2017 - 12:13:9:662] Z5馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:9:663] 取放臂5電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:9:663] Z5馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:663] 取放臂5電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:9:683] 取插機 [AUTO] Plug Recipe2 Complete
+[6/10/2017 - 12:13:9:683] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:9:684] 取插機 [AUTO] Move To PluginPos [Recipe4] Arm3 X:230.000 Y:344.000
+[6/10/2017 - 12:13:9:685] X馬達 [BASE] Start AMove To    230.00000 mm
+[6/10/2017 - 12:13:9:685] Y馬達 [BASE] Start AMove To    344.00000 mm
+[6/10/2017 - 12:13:9:686] 取插機 [AUTO] Wait To PluginPos
+[6/10/2017 - 12:13:9:687] X馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:9:687] Y馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:10:639] 取插機 [AUTO] Start Arm Down To Plug
+[6/10/2017 - 12:13:10:639] 取放臂3 [AUTO] Start to Plug Z down
+[6/10/2017 - 12:13:10:640] Z3馬達 [BASE] Start AMove To      0.00000 mm
+[6/10/2017 - 12:13:10:640] 取插機 [AUTO] Check Plug Component [Recipe4] Arm3
+[6/10/2017 - 12:13:10:640] 取放臂3 [AUTO] Wait Z down then close valve
+[6/10/2017 - 12:13:10:641] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:10:641] 取放臂3電磁閥 [BASE] Start Close
+[6/10/2017 - 12:13:10:642] 取放臂3 [AUTO] Wait Z up
+[6/10/2017 - 12:13:10:642] Z3馬達 [BASE] Start AMove To    100.00000 mm
+[6/10/2017 - 12:13:10:643] 取放臂3電磁閥 [BASE] Wait Close
+[6/10/2017 - 12:13:10:643] Z3馬達 [BASE] Wait AMove
+[6/10/2017 - 12:13:10:643] 取放臂3電磁閥 [BASE] Action finish
+[6/10/2017 - 12:13:10:663] 取插機 [AUTO] Plug Recipe3 Complete
+[6/10/2017 - 12:13:10:664] 取插機 [AUTO] Start Plugin
+[6/10/2017 - 12:13:10:665] 取插機 [AUTO] PreArrange PickArm
+[6/10/2017 - 12:13:10:666] 取插機 [AUTO] PCB End
+[6/10/2017 - 12:18:46:298] Machine initial complete!
+[6/10/2017 - 13:6:55:518] Machine initial complete!
+[6/10/2017 - 13:23:23:824] Machine initial complete!
+[6/10/2017 - 13:39:55:798] Machine initial complete!
+[6/10/2017 - 13:54:8:138] Machine initial complete!
+[6/10/2017 - 13:57:35:63] Machine initial complete!
+[6/10/2017 - 13:57:53:995] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/10/2017 - 13:57:53:995] X馬達 [BASE] Wait AMove
+[6/10/2017 - 14:9:4:858] Machine initial complete!
+[6/10/2017 - 14:9:15:516] X馬達 [BASE] Start RMove     10.00000 mm
+[6/10/2017 - 14:9:28:691] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/10/2017 - 14:9:28:693] X馬達 [BASE] Wait AMove
+[6/10/2017 - 14:9:32:89] X馬達 [BASE] Start RMove    -10.00000 mm
+[6/10/2017 - 14:11:9:372] X馬達 [BASE] Start AMove To   2000.00000 mm
+[6/10/2017 - 14:11:9:372] X馬達 [BASE] Wait AMove
+[6/10/2017 - 14:11:27:927] X馬達 [BASE] Start RMove     10.00000 mm
+[6/10/2017 - 14:12:34:680] X馬達 [BASE] Start RMove     10.00000 mm
+[6/10/2017 - 14:14:20:76] X馬達 [BASE] Start AMove To   2000.00000 mm
+[6/10/2017 - 14:14:20:76] X馬達 [BASE] Wait AMove
+[6/10/2017 - 14:14:28:928] X馬達 [BASE] Start AMove To   2000.00000 mm
+[6/10/2017 - 14:14:28:930] X馬達 [BASE] Wait AMove
