@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginDoc.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginView.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewAuto.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewBottom.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewConfig.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewManual.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewProduction.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewRecipe.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewTop.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormViewVision.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfigIO.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfigMotor.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfigPilot.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfigTimer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConfigValve.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEmgStop.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgError.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRecipe.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgVision.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MConveyor.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MPickPlug.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MPPArm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MFeeder.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRecipePPArm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MSRX2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MSRX4.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgComponents.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgComponentSearch.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPCB.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSystemStatus.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAutoMotorPage.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMotorConfig.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginDoc.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginView.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewBottom.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewConfig.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewManual.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewProduction.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewRecipe.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewTop.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewVision.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfigIO.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfigMotor.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfigPilot.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfigTimer.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConfigValve.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEmgStop.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgError.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRecipe.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgVision.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="FormViewAuto.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MConveyor.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MPickPlug.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MPPArm.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="MFeeder.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRecipePPArm.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgComponents.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgComponentSearch.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPCB.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSystemStatus.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAutoMotorPage.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMotorConfig.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Plugin.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Plugin.rc2">
+      <Filter>資源檔</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PluginDoc.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\Plugin.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\icon_hom.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\gon.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\goff.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\ico00002.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\icon_alm.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
