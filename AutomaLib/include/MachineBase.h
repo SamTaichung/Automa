@@ -25,6 +25,7 @@ namespace AutoLib {
 		AUTOMALIB_API void ShowMessage(MMessage *pMessage);
 		AUTOMALIB_API void ErrorHappen(MError *pError);
 		AUTOMALIB_API void Cycle(const double dblTime);
+		AUTOMALIB_API bool Init();
 		//-----------建立主Thread以提供所有物件步序----------------
 		static UINT DoThread(void *);
 		//------------以下是Machine共通的成員-------
@@ -63,6 +64,8 @@ namespace AutoLib {
 		AUTOMALIB_API bool RenewPassword(CADOConnection* pCnn, CString szOldPwd, CString szNewPwd, MBase::LOGINTYPE nUserType);
 		AUTOMALIB_API bool WritePassword(CADOConnection* pCnn, CString szNewPWD, MBase::LOGINTYPE UserType);
 		AUTOMALIB_API bool SetShellAsMyApp(CADOConnection* pCnnPasswordMDB, CString szPassword, bool bUseMyApp);
+		AUTOMALIB_API bool isInitComplete();
+		AUTOMALIB_API bool isHomeComplete();
 	protected:
 		AUTOMALIB_API void CreateIO() {};
 		AUTOMALIB_API void CreateMotor() {};
@@ -72,6 +75,8 @@ namespace AutoLib {
 		bool m_bShutDown;		//是否關機
 		bool m_bErrorHappen;	//是否有異常發生
 		bool m_bMachineStop;	//UI是否呼叫停機
+		bool m_bInitComplete;	//初始化完成
+		bool m_bHomeComplete;	//復歸完成
 		double m_dblScanTime;
 		CString m_strMachineMDB;
 		CString m_strRecipeMDB;

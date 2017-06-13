@@ -413,6 +413,7 @@ void Machine::Cycle(const double dblTime)
 				break;
 				case InitStep::isMachineComplete:
 				{
+					MachineBase::Init();
 					pMsg = new MMessage();
 					pMsg->strMessage = _T("Load Data Complete");
 					pMsg->MsgType = MMessage::MESSAGETYPE::MachineComplete;
@@ -422,7 +423,6 @@ void Machine::Cycle(const double dblTime)
 				break;
 				case InitStep::isInitMachine:
 				{
-					MachineBase::Init();
 					pMsg = new MMessage();
 					pMsg->MsgType = MMessage::MESSAGETYPE::LogToFile;
 					pMsg->strMessage = _T("Machine initial complete!");

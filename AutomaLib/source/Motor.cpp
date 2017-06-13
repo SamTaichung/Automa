@@ -570,7 +570,7 @@ bool MMotor::isALM()
 }
 bool MMotor::Init() 
 {
-	return SetSVOn(true) && MBase::Init();
+	return  m_pMotionLib->Init(this) && SetSVOn(true) && MBase::Init();
 }
 void MMotor::LoadMachineData(CADOConnection * pC, bool bAllChildsLoad)
 {
@@ -729,7 +729,10 @@ double MMotor::GetSpeed()		//目前速度
 	dblSpeed = fabs(dblSpeed*m_Coefficient);
 	return dblSpeed;
 }
-
+WORD MMotor::GetStatus()
+{
+	return m_pMotionLib->GetStatus(this);
+}
 void MMotor::SetCalObject(MMotorCalculate *pMC)
 {
 	m_pMotorCalculate=pMC;

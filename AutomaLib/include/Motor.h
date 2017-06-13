@@ -55,7 +55,8 @@ namespace AutoLib{
 		AUTOMALIB_API virtual double GetSpeed();			//目前速度
 		AUTOMALIB_API virtual void SetPosition(double);	//設定位置
 		AUTOMALIB_API virtual bool SetSVOn(bool isOn);	//設定是否要Server On
-		AUTOMALIB_API virtual int GetALMNo(){return 0;};
+		AUTOMALIB_API virtual WORD GetStatus();
+		AUTOMALIB_API virtual int GetALMNo() { return 0; };
 		AUTOMALIB_API virtual void ResetALM(){};
 		AUTOMALIB_API virtual bool GetMotorHomeComplete(void);
 		AUTOMALIB_API virtual void SetMotorHomeComplete(bool bComplete);

@@ -44,6 +44,21 @@ void DlgConfigMotor::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_EDIT_HIDESTIME, m_editHiDesTime);
 	DDX_Control(pDX, IDC_EDIT_LOACCTIME, m_editLoAccTime);
 	DDX_Control(pDX, IDC_EDIT_LODESTIME, m_editLoDesTime);
+	DDX_Control(pDX, IDC_LED1, m_btLED[0]);
+	DDX_Control(pDX, IDC_LED2, m_btLED[1]);
+	DDX_Control(pDX, IDC_LED3, m_btLED[2]);
+	DDX_Control(pDX, IDC_LED4, m_btLED[3]);
+	DDX_Control(pDX, IDC_LED5, m_btLED[4]);
+	DDX_Control(pDX, IDC_LED6, m_btLED[5]);
+	DDX_Control(pDX, IDC_LED7, m_btLED[6]);
+	DDX_Control(pDX, IDC_LED8, m_btLED[7]);
+	DDX_Control(pDX, IDC_LED9, m_btLED[8]);
+	DDX_Control(pDX, IDC_LED10, m_btLED[9]);
+	DDX_Control(pDX, IDC_LED11, m_btLED[10]);
+	DDX_Control(pDX, IDC_LED12, m_btLED[11]);
+	DDX_Control(pDX, IDC_LED13, m_btLED[12]);
+	DDX_Control(pDX, IDC_LED14, m_btLED[13]);
+	DDX_Control(pDX, IDC_LED15, m_btLED[14]);
 }
 
 

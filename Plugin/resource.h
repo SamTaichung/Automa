@@ -131,14 +131,44 @@
 #define IDC_LIST_IO_X                   1039
 #define IDC_TAB_RECIPE                  1040
 #define IDC_LIST_IO_Y                   1040
-#define IDC_BUTTON1                     1040
+#define IDC_LED1                        1040
 #define IDC_LIST_RECIPES                1041
+#define IDC_TAB_DISPLAY                 1041
+#define IDC_LED2                        1041
 #define IDC_CMB_SV                      1042
 #define IDC_LIST_FEEDER                 1042
+#define IDC_STC_X_POS                   1042
+#define IDC_LED3                        1042
 #define IDC_TAB_VISION                  1043
 #define IDC_CMB_BUZZ                    1043
+#define IDC_STC_Y_POS                   1043
+#define IDC_LED4                        1043
+#define IDC_STC_Z1                      1044
+#define IDC_LED5                        1044
+#define IDC_STC_R1                      1045
+#define IDC_LED6                        1045
+#define IDC_STC_Z2                      1046
+#define IDC_LED7                        1046
+#define IDC_STC_R2                      1047
+#define IDC_LED8                        1047
+#define IDC_STC_Z3                      1048
+#define IDC_LED9                        1048
+#define IDC_STC_R3                      1049
+#define IDC_LED10                       1049
+#define IDC_STC_Z4                      1050
+#define IDC_LED11                       1050
+#define IDC_STC_R4                      1051
+#define IDC_LED12                       1051
+#define IDC_STC_Z5                      1052
+#define IDC_STC_R5                      1053
+#define IDC_STC_Z6                      1054
+#define IDC_LED13                       1054
+#define IDC_STC_R6                      1055
+#define IDC_LED14                       1055
+#define IDC_LED15                       1056
 #define IDC_TREE_SYSTEM                 1349
 #define IDD_DLG_SYSTEM_STATUS           11170
+#define IDD_DLG_AUTO_MOTORS             11171
 #define ID_32771                        32771
 #define ID_Menu                         32772
 #define ID_32773                        32773
@@ -150,7 +180,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        314
 #define _APS_NEXT_COMMAND_VALUE         32775
-#define _APS_NEXT_CONTROL_VALUE         1041
+#define _APS_NEXT_CONTROL_VALUE         1043
 #define _APS_NEXT_SYMED_VALUE           310
 #endif
 #endif

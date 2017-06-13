@@ -1,15 +1,19 @@
 #pragma once
 
 #include "FormViewAutoma.h"
+#include "FormTabAutoma.h"
+#include "TabCtrlAutoma.h"
 #include "ButtonAutoma.h"
 #include "PictureAutoma.h"
 #include "afxwin.h"
+#include "afxcmn.h"
+#include "DlgAutoMotorPage.h"
+
 using namespace AutoLib;
 using namespace AutoUI;
 // FormViewAuto ªí³æÀËµø
 
-
-class FormViewAuto : public FormViewAutoma
+class FormViewAuto : public FormTabAutoma
 {
 	DECLARE_DYNCREATE(FormViewAuto)
 
@@ -38,6 +42,8 @@ public:
 	afx_msg void OnStnClickedPictureAuto();
 	ButtonAutoma m_btnStart;
 	afx_msg void OnBnClickedBtnStart();
+	DlgAutoMotorPage m_pageMotor;
+	virtual void OnInitialUpdate();
 };
 
 

@@ -57,4 +57,5 @@ public:
 	EditAutoma m_editHiSpeed,m_editLoSpeed;
 	EditAutoma m_editHiAccTime, m_editHiDesTime;
 	EditAutoma m_editLoAccTime, m_editLoDesTime;
+	CButton m_btLED[15];
 };

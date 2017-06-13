@@ -80,8 +80,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Automa\AutomaLib\include;D:\Automa\AutomaUI\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(OutDir);$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Lib;D:\D:\Automa\AutomaLib\include;D:\Automa\AutomaUI\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Lib;$(OutDir);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -192,6 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStruct.h" />
+    <ClInclude Include="DlgAutoMotorPage.h" />
     <ClInclude Include="DlgComponents.h" />
     <ClInclude Include="DlgComponentSearch.h" />
     <ClInclude Include="DlgConfigIO.h" />
@@ -230,6 +231,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DlgAutoMotorPage.cpp" />
     <ClCompile Include="DlgComponents.cpp" />
     <ClCompile Include="DlgComponentSearch.cpp" />
     <ClCompile Include="DlgConfigIO.cpp" />

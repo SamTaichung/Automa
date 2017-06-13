@@ -27,7 +27,7 @@ namespace AutoLib {
 	public:
 		AUTOMALIB_API MMotionLibVirtual(MBase *pB, CString MotorID, CString strName, int AxisCount);
 		AUTOMALIB_API ~MMotionLibVirtual();
-		AUTOMALIB_API bool Init();
+		AUTOMALIB_API bool Init(MMotor* pMotor);
 		AUTOMALIB_API void Cycle(const double dblTime);
 		AUTOMALIB_API bool isMotion(MMotor* pMotor);
 		AUTOMALIB_API double GetSpeed(MMotor* pMotor);
@@ -40,6 +40,9 @@ namespace AutoLib {
 		bool Stop(MMotor* pMotor);
 		bool EStop(MMotor* pMotor);
 		bool Home(MMotor* pMotor);
+		int GetMotorIndex(MMotor* pMotor);
+		int m_intMotorInitCount;
 		CArray<VirtualMotorData*> m_AxisArray;
+		map<MMotor*, int> m_mapMotorIndex;
 	};
 }

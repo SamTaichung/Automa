@@ -5,13 +5,14 @@
 #include "Plugin.h"
 #include "FormViewAuto.h"
 
-
+using namespace AutoUI;
 // FormViewAuto
 
-IMPLEMENT_DYNCREATE(FormViewAuto, FormViewAutoma)
+IMPLEMENT_DYNCREATE(FormViewAuto, FormTabAutoma)
 
 FormViewAuto::FormViewAuto()
-	: FormViewAutoma(IDD_AUTOVIEW)
+	: FormTabAutoma(IDD_AUTOVIEW, IDC_TAB_DISPLAY)
+
 {
 
 }
@@ -22,7 +23,7 @@ FormViewAuto::~FormViewAuto()
 
 void FormViewAuto::DoDataExchange(CDataExchange* pDX)
 {
-	FormViewAutoma::DoDataExchange(pDX);
+	FormTabAutoma::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_PICTURE_AUTO, m_stcPicture);
 	DDX_Control(pDX, IDC_BTN_START, m_btnStart);
 }
@@ -39,13 +40,13 @@ END_MESSAGE_MAP()
 #ifdef _DEBUG
 void FormViewAuto::AssertValid() const
 {
-	FormViewAutoma::AssertValid();
+	FormTabAutoma::AssertValid();
 }
 
 #ifndef _WIN32_WCE
 void FormViewAuto::Dump(CDumpContext& dc) const
 {
-	FormViewAutoma::Dump(dc);
+	FormTabAutoma::Dump(dc);
 }
 #endif
 #endif //_DEBUG
@@ -70,4 +71,15 @@ void FormViewAuto::OnStnClickedPictureAuto()
 void FormViewAuto::OnBnClickedBtnStart()
 {
 	m_pMachine->AutoStart();
+}
+
+
+void FormViewAuto::OnInitialUpdate()
+{
+	FormTabAutoma::OnInitialUpdate();
+
+	m_pageMotor.Create(IDD_DLG_AUTO_MOTORS, this);
+	m_pageMotor.SetWindowTextW(_T("Motor"));
+	AddPage(&m_pageMotor);
+
 }

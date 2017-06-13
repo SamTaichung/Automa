@@ -78,6 +78,10 @@ void MMotionLib::ResetALM(MMotor* pMotor)
 {
 	return ;
 }
+WORD MMotionLib::GetStatus(MMotor* pMotor)
+{
+	return (0x6000);
+}
 
 
 

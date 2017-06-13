@@ -15,6 +15,8 @@ MachineBase::MachineBase(CWnd *pWnd):
 	m_bErrorHappen = false;
 	m_bMachineStop = false;
 	m_dblScanTime = 0;
+	m_bInitComplete = false;
+	m_bHomeComplete = false;
 	m_pThread = NULL;
 	::CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)(MachineBase::DoThread), this, NULL, &m_pThread);
 }
@@ -637,4 +639,17 @@ bool MachineBase::SetShellAsMyApp(CADOConnection* pCnnPasswordMDB, CString szPas
 	AfxMessageBox(szMsg);
 	RegCloseKey(hKey);
 	return true;
+}
+bool MachineBase::isInitComplete()
+{
+	return m_bInitComplete;
+}
+bool MachineBase::isHomeComplete()
+{
+	return m_bHomeComplete;
+}
+bool MachineBase::Init()
+{
+	m_bInitComplete = MUnit::Init();
+	return m_bInitComplete;
 }

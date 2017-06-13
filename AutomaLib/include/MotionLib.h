@@ -13,6 +13,8 @@ namespace AutoLib{
 	public:
 		AUTOMALIB_API MMotionLib(MBase *pParent,CString strID,CString strName);
 		AUTOMALIB_API virtual ~MMotionLib();
+		AUTOMALIB_API virtual bool Init() { return MBase::Init(); };
+		AUTOMALIB_API virtual bool Init(MMotor* pMotor) { return false; };
 		AUTOMALIB_API virtual bool Stop(MMotor* pMotor, double dblDesTime) { return false; }; //減速停止
 		AUTOMALIB_API virtual bool EStop(MMotor* pMotor) { return false; }; //緊急停止
 		AUTOMALIB_API virtual bool AMove(MMotor* pMotor,
@@ -44,6 +46,7 @@ namespace AutoLib{
 		AUTOMALIB_API virtual void SetPosition(MMotor* pMotor, double Pos);	//設定位置
 		AUTOMALIB_API virtual bool SetSVOn(MMotor* pMotor,bool isOn);	//設定是否要Server On
 		AUTOMALIB_API virtual int GetALMNo(MMotor* pMotor);
+		AUTOMALIB_API virtual WORD GetStatus(MMotor* pMotor);
 		AUTOMALIB_API virtual void ResetALM(MMotor* pMotor);
 	};
 
