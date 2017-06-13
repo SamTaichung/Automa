@@ -54,14 +54,7 @@ bool MMotionLib::isALM(MMotor* pMotor)
 {
 	return false;
 }
-double MMotionLib::GetPosition(MMotor* pMotor)			//目前位置
-{
-	return 0;
-}
-double MMotionLib::GetSpeed(MMotor* pMotor)				//目前速度
-{
-	return 0;
-}
+
 void MMotionLib::SetPosition(MMotor* pMotor, double Pos)	//設定位置
 {
 	return;
@@ -78,12 +71,14 @@ void MMotionLib::ResetALM(MMotor* pMotor)
 {
 	return ;
 }
-WORD MMotionLib::GetStatus(MMotor* pMotor)
+WORD MMotionLib::GetIOStatus(MMotor* pMotor)
 {
 	return (0x6000);
 }
-
-
+int MMotionLib::GetStatusCode(MMotor* pMotor)
+{
+	return 0;
+}
 
 // MCard 訊息處理常式
 

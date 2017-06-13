@@ -4,7 +4,6 @@
 #else
 #define AUTOMALIB_API __declspec(dllimport)
 #endif
-// MCard
 #include "Base.h"				
 namespace AutoLib{
 	class MMotor;
@@ -41,13 +40,15 @@ namespace AutoLib{
 		AUTOMALIB_API virtual bool isMLim(MMotor* pMotor);				//馬達是否在負極限訊號上
 		AUTOMALIB_API virtual bool isSVOn(MMotor* pMotor);				//馬達是否Servo On
 		AUTOMALIB_API virtual bool isALM(MMotor* pMotor);				//是否ALM
-		AUTOMALIB_API virtual double GetPosition(MMotor* pMotor);		//目前位置
-		AUTOMALIB_API virtual double GetSpeed(MMotor* pMotor);			//目前速度
+		AUTOMALIB_API virtual bool GetSpeed(MMotor* pMotor, double *pSpeed)=0;//目前速度
+		AUTOMALIB_API virtual bool GetPosition(MMotor* pMotor, double *pSpeed)=0;//目前位置
 		AUTOMALIB_API virtual void SetPosition(MMotor* pMotor, double Pos);	//設定位置
 		AUTOMALIB_API virtual bool SetSVOn(MMotor* pMotor,bool isOn);	//設定是否要Server On
 		AUTOMALIB_API virtual int GetALMNo(MMotor* pMotor);
-		AUTOMALIB_API virtual WORD GetStatus(MMotor* pMotor);
+		AUTOMALIB_API virtual WORD GetIOStatus(MMotor* pMotor);
 		AUTOMALIB_API virtual void ResetALM(MMotor* pMotor);
+		AUTOMALIB_API virtual int GetStatusCode(MMotor* pMotor);		//取得狀態碼
+
 	};
 
 }//namespace AutoLib

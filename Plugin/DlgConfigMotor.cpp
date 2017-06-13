@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "Plugin.h"
 #include "DlgConfigMotor.h"
-
+#include "Machine.h"
 
 // DlgConfigMotor ¹ï¸Ü¤è¶ô
 
@@ -78,6 +78,7 @@ BEGIN_MESSAGE_MAP(DlgConfigMotor, CDialog)
 	ON_BN_CLICKED(IDC_BTN_SAVE, &DlgConfigMotor::OnBnClickedBtnSave)
 	ON_BN_CLICKED(IDC_BTN_P1, &DlgConfigMotor::OnBnClickedBtnP1)
 	ON_BN_CLICKED(IDC_BTN_P2, &DlgConfigMotor::OnBnClickedBtnP2)
+	ON_BN_CLICKED(IDC_BTN_CONFIG, &DlgConfigMotor::OnBnClickedBtnConfig)
 END_MESSAGE_MAP()
 
 void DlgConfigMotor::RefreshPage()
@@ -85,10 +86,18 @@ void DlgConfigMotor::RefreshPage()
 	CString strV;
 	if (m_pSelectedMotor != NULL)
 	{
+		WORD wStatus,wBit;
+		wStatus = m_pSelectedMotor->GetIOStatus();
+		wBit = 0x0001;
+		for (int i = 0; i < 15; i++)
+		{
+			m_btLED[i].SetColor((wStatus & (wBit << i)) ? RGB(255, 32, 32) : RGB(64, 0, 0));
+		}
 		strV.Format(_T("%10.4f"), m_pSelectedMotor->GetPosition());
 		m_stcPos.SetWindowTextW(strV);
 		strV.Format(_T("%10.4f"), m_pSelectedMotor->GetSpeed());
 		m_stcSpeed.SetWindowTextW(strV);
+
 	}
 	for (int i = 0;i < m_listMotors.GetItemCount();i++)
 	{
@@ -381,5 +390,17 @@ void DlgConfigMotor::OnBnClickedBtnP2()
 	if (m_pSelectedMotor != NULL)
 	{
 		m_pSelectedMotor->AMove(m_pSelectedMotor->m_P2);
+	}
+}
+
+void DlgConfigMotor::OnBnClickedBtnConfig()
+{
+	if (m_pSelectedMotor != NULL)
+	{
+		DlgMotorConfig *pDlg = new DlgMotorConfig(this,m_pSelectedMotor);
+		pDlg->DoModal();
+		m_pSelectedMotor->Init();
+		delete pDlg;
+		
 	}
 }

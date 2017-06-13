@@ -22,6 +22,7 @@ public:
 	AUTOMALIB_API virtual void SaveMachineData(CADOConnection * pC, bool bAllChildsSave = true);
 	AUTOMALIB_API virtual void LoadMachineData(CADOConnection * pC, bool bAllChildsLoad = true);
 	MIOLib *m_pIOLib;
+	int m_CardID, m_ConnectID, m_StationID, m_PinID; //卡號,網路埠,站號,接腳號
 protected:
 	bool m_Value, m_isOut;
 	bool m_Logic; //true:正邏輯 false:負邏輯

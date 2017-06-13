@@ -4,15 +4,14 @@
 #else
 #define AUTOMALIB_API __declspec(dllimport)
 #endif
-// MCard
-#include "Base.h"				
+#include "IOLib.h"				
 namespace AutoLib{
 	class MIO;
-	AUTOMALIB_API class MIOLib : public MBase
+	AUTOMALIB_API class MIOLibSamNet : public MIOLib
 	{
 	public:
-		AUTOMALIB_API MIOLib(MBase *pParent,CString strID,CString strName);
-		AUTOMALIB_API virtual ~MIOLib();
+		AUTOMALIB_API MIOLibSamNet(MIOLib *pParent,CString strID,CString strName);
+		AUTOMALIB_API virtual ~MIOLibSamNet();
 		AUTOMALIB_API virtual bool GetValue(MIO* pIO);
 		AUTOMALIB_API virtual void SetValue(MIO* pIO, bool bValue);
 	protected:

@@ -39,6 +39,7 @@ public:
 	MConveyor *m_pConveyor;		//¿é°e¾÷ºc
 	MPickPlug *m_pPickPlug;		//¨ú´¡¾÷ºc
 	MMotionLib *m_pMotionLib;
+	MMotionLib *m_pMotionLib2;
 	MIOLib *m_pIOLib;
 	MCard	*m_pPCIMaster;
 	bool LoadSystemData();

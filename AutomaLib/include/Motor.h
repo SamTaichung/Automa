@@ -50,14 +50,15 @@ namespace AutoLib{
 		AUTOMALIB_API virtual bool isPLim();				//馬達是否在正極限訊號上
 		AUTOMALIB_API virtual bool isMLim();				//馬達是否在負極限訊號上
 		AUTOMALIB_API virtual bool isSVOn();				//馬達是否Servo On
-		AUTOMALIB_API virtual bool isALM();				//是否ALM
-		AUTOMALIB_API virtual double GetPosition();		//目前位置
+		AUTOMALIB_API virtual bool isALM();					//是否ALM
+		AUTOMALIB_API virtual double GetPosition();			//目前位置
 		AUTOMALIB_API virtual double GetSpeed();			//目前速度
-		AUTOMALIB_API virtual void SetPosition(double);	//設定位置
-		AUTOMALIB_API virtual bool SetSVOn(bool isOn);	//設定是否要Server On
-		AUTOMALIB_API virtual WORD GetStatus();
-		AUTOMALIB_API virtual int GetALMNo() { return 0; };
-		AUTOMALIB_API virtual void ResetALM(){};
+		AUTOMALIB_API virtual void SetPosition(double);		//設定位置
+		AUTOMALIB_API virtual bool SetSVOn(bool isOn);		//設定是否要Server On
+		AUTOMALIB_API virtual WORD GetIOStatus();			//取得軸控極限/RDY/Alm/Org...
+		AUTOMALIB_API virtual int GetALMNo() { return 0; }; //取得ALM碼
+		AUTOMALIB_API virtual void ResetALM(){};			//輸出重置訊號
+		AUTOMALIB_API virtual int GetStatusCode(){ return 0; }; //取得狀態碼
 		AUTOMALIB_API virtual bool GetMotorHomeComplete(void);
 		AUTOMALIB_API virtual void SetMotorHomeComplete(bool bComplete);
 		AUTOMALIB_API virtual bool ResetCommand(){return false;};
@@ -72,10 +73,10 @@ namespace AutoLib{
 				m_HiDesTime,m_LoAccTime,m_LoDesTime,m_HomeAccTime,m_HomeDesTime,m_HomeOffset,
 				m_Repeat,m_RepeatDir,m_PMax,m_MMax,m_UnitRev,m_PulseRev,m_Coefficient;
 		bool m_AxisDir,m_HomeDir,m_SVOnLogic,m_ALMLogic,m_OrgLogic,m_PLimLogic,m_MLimLogic
-			,m_INPLogic,m_INPEnable;
+			, m_INPLogic, m_INPEnable, m_SDLogic, m_LTCLogic, m_EncoderLogic,m_EZLogic;
 		long m_intSpeedSelect,m_intPitchSelect,m_HomeMode,m_RepeatCount;
 		unsigned short m_CardID,m_ConnectID,m_StationID,m_AxisID;
-		int m_PulseMode,m_CountSource,m_AlarmMode,m_EZCount;
+		int m_PulseMode, m_CountSource, m_ALMMode, m_EZCount, m_SDMode, m_LTCMode, m_EncoderMode;
 		CString m_Unit;
 		enum STEP {
 					STARTHOME,

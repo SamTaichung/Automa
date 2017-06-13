@@ -23,13 +23,17 @@ MMotor::MMotor(MBase *pB,CString MotorID,CString strName, MMotionLib* pMotion,CS
 	m_Repeat=false;
 	m_RepeatDir=false;
 	m_SVOnLogic=true;
-	m_ALMLogic=true;
-	m_INPLogic=true;
+	m_ALMLogic = true;
+	m_ALMMode = 1;
+	m_SDLogic = true;
+	m_SDMode = 0;
+	m_LTCLogic = true;
+	m_LTCMode = 0;
+	m_INPLogic = true;
 	m_isSVOn=false;
 	m_bHomeComplete=false;
 	m_pMotorCalculate=NULL;
 	m_pTMHome=NULL;
-	m_AlarmMode=1;
 	m_nJogDir=0;
 }
 MMotor::~MMotor()
@@ -498,7 +502,8 @@ bool MMotor::ExitLimit()	//0831
 double MMotor::GetPosition()
 {
 	double dblTmp;
-	dblTmp=m_pMotionLib->GetPosition(this)*m_Coefficient;
+	m_pMotionLib->GetPosition(this, &dblTmp);
+	dblTmp = dblTmp*m_Coefficient;
 	if (m_pMotorCalculate!=NULL)
 	{
 		dblTmp=m_pMotorCalculate->GetPosition(this);
@@ -591,8 +596,17 @@ void MMotor::LoadMachineData(CADOConnection * pC, bool bAllChildsLoad)
 		strSQL += _T("HomeDir bit not null default -1,");
 		strSQL += _T("SVOnLogic bit not null	default	-1,");
 		strSQL += _T("ALMLogic bit not null default -1,");
+		strSQL += _T("ALMMode bit not null default 0,");
 		strSQL += _T("OrgLogic bit not null default -1,");
 		strSQL += _T("INPLogic bit not null default -1,");
+		strSQL += _T("INPEnable bit not null default 0,");
+		strSQL += _T("SDLogic bit not null default -1,");
+		strSQL += _T("SDMode int not null default 0,");
+		strSQL += _T("LTCLogic bit not null default -1,");
+		strSQL += _T("LTCMode int not null default 0,");
+		strSQL += _T("EZLogic bit not null default -1,");
+		strSQL += _T("EncoderLogic bit not null default -1,");
+		strSQL += _T("EncoderMode int not null default 0,");
 		strSQL += _T("PLimLogic bit not null	default	-1,");
 		strSQL += _T("MLimLogic bit not null	default	-1,");
 		strSQL += _T("HiSpeed float not null	default	0,");
@@ -642,9 +656,15 @@ void MMotor::LoadMachineData(CADOConnection * pC, bool bAllChildsLoad)
 			rsTmp.GetValue(_T("OrgLogic"),m_OrgLogic);
 			rsTmp.GetValue(_T("PLimLogic"),m_PLimLogic);
 			rsTmp.GetValue(_T("MLimLogic"),m_MLimLogic);
-			rsTmp.GetValue(_T("INPLogic"),m_INPLogic);
-			rsTmp.GetValue(_T("ALMLogic"),m_ALMLogic);
-			rsTmp.GetValue(_T("HiSpeed"),m_HiSpeed);
+			rsTmp.GetValue(_T("INPLogic"), m_INPLogic);
+			rsTmp.GetValue(_T("INPEnable"), m_INPEnable);
+			rsTmp.GetValue(_T("ALMLogic"), m_ALMLogic);
+			rsTmp.GetValue(_T("ALMMode"), m_ALMMode);
+			rsTmp.GetValue(_T("LTCLogic"), m_ALMLogic);
+			rsTmp.GetValue(_T("LTCMode"), m_ALMMode);
+			rsTmp.GetValue(_T("SDLogic"), m_SDLogic);
+			rsTmp.GetValue(_T("SDMode"), m_SDMode);
+			rsTmp.GetValue(_T("HiSpeed"), m_HiSpeed);
 			rsTmp.GetValue(_T("LoSpeed"),m_LoSpeed);
 			rsTmp.GetValue(_T("HomeSpeed"),m_HomeSpeed);
 			rsTmp.GetValue(_T("HiAccTime"),m_HiAccTime);
@@ -661,7 +681,10 @@ void MMotor::LoadMachineData(CADOConnection * pC, bool bAllChildsLoad)
 			rsTmp.GetValue(_T("Delay"),m_Delay);
 			rsTmp.GetValue(_T("Unit"),m_Unit);
 			rsTmp.GetValue(_T("CountSource"),m_CountSource);
-			rsTmp.GetValue(_T("PulseMode"),m_PulseMode);
+			rsTmp.GetValue(_T("PulseMode"), m_PulseMode);
+			rsTmp.GetValue(_T("EncoderMode"), m_EncoderMode);
+			rsTmp.GetValue(_T("EncoderLogic"), m_EncoderLogic);
+			rsTmp.GetValue(_T("EZLogic"), m_EZLogic);
 		}
 		rsTmp.Close();
 		m_Coefficient=1;
@@ -696,9 +719,15 @@ void MMotor::SaveMachineData(CADOConnection * pC,bool bAllChildsSave)
 		rsTmp.SetValue(_T("OrgLogic"),m_OrgLogic);
 		rsTmp.SetValue(_T("PLimLogic"),m_PLimLogic);
 		rsTmp.SetValue(_T("MLimLogic"),m_MLimLogic);
-		rsTmp.SetValue(_T("INPLogic"),m_INPLogic);
-		rsTmp.SetValue(_T("ALMLogic"),m_ALMLogic);
-		rsTmp.SetValue(_T("HiSpeed"),m_HiSpeed);
+		rsTmp.SetValue(_T("INPLogic"), m_INPLogic);
+		rsTmp.SetValue(_T("INPEnable"), m_INPEnable);
+		rsTmp.SetValue(_T("ALMLogic"), m_ALMLogic);
+		rsTmp.SetValue(_T("ALMMode"), m_ALMMode);
+		rsTmp.SetValue(_T("SDLogic"), m_SDLogic);
+		rsTmp.SetValue(_T("SDMode"), m_SDMode);
+		rsTmp.SetValue(_T("LTCLogic"), m_LTCLogic);
+		rsTmp.SetValue(_T("LTCMode"), m_LTCMode);
+		rsTmp.SetValue(_T("HiSpeed"), m_HiSpeed);
 		rsTmp.SetValue(_T("LoSpeed"),m_LoSpeed);
 		rsTmp.SetValue(_T("HomeSpeed"),m_HomeSpeed);
 		rsTmp.SetValue(_T("HiAccTime"),m_HiAccTime);
@@ -715,7 +744,10 @@ void MMotor::SaveMachineData(CADOConnection * pC,bool bAllChildsSave)
 		rsTmp.SetValue(_T("Delay"),m_Delay);
 		rsTmp.SetValue(_T("Unit"),m_Unit);
 		rsTmp.SetValue(_T("CountSource"),m_CountSource);
-		rsTmp.SetValue(_T("PulseMode"),m_PulseMode);
+		rsTmp.SetValue(_T("PulseMode"), m_PulseMode);
+		rsTmp.SetValue(_T("EncoderMode"), m_EncoderMode);
+		rsTmp.SetValue(_T("EncoderLogic"), m_EncoderLogic);
+		rsTmp.SetValue(_T("EZLogic"), m_EZLogic);
 		rsTmp.Update();
 		pC->CommitTrans();
 		rsTmp.Close();
@@ -725,13 +757,13 @@ void MMotor::SaveMachineData(CADOConnection * pC,bool bAllChildsSave)
 double MMotor::GetSpeed()		//目前速度
 {
 	double dblSpeed;
-	dblSpeed = m_pMotionLib->GetSpeed(this);
+	m_pMotionLib->GetSpeed(this,&dblSpeed);
 	dblSpeed = fabs(dblSpeed*m_Coefficient);
 	return dblSpeed;
 }
-WORD MMotor::GetStatus()
+WORD MMotor::GetIOStatus()
 {
-	return m_pMotionLib->GetStatus(this);
+	return m_pMotionLib->GetIOStatus(this);
 }
 void MMotor::SetCalObject(MMotorCalculate *pMC)
 {

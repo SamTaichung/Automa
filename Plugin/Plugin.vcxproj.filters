@@ -132,6 +132,9 @@
     <ClInclude Include="DlgAutoMotorPage.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="DlgMotorConfig.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Plugin.cpp">
@@ -231,6 +234,9 @@
       <Filter>原始程式檔</Filter>
     </ClCompile>
     <ClCompile Include="DlgAutoMotorPage.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMotorConfig.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>

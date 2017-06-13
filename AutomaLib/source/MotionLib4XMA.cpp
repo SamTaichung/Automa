@@ -27,12 +27,12 @@ bool MMotionLib4XMA::Init(MMotor* pMotor)
 	ret = _4XMA_set_inp(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, pMotor->m_AxisID, pMotor->m_INPEnable, pMotor->m_INPLogic);
 	ret = _4XMA_set_alm(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, pMotor->m_AxisID, (pMotor->m_ALMLogic ? 1 : 0), 1);
 	ret = _4XMA_set_el_logic(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, pMotor->m_AxisID, (pMotor->m_PLimLogic ? 1 : 0));
-	ret = _4XMA_set_emg_logic(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, 1);
+	ret = _4XMA_set_emg_logic(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, 0);
 	ret = _4XMA_set_rst(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, pMotor->m_AxisID, 1);
 	if (ret == 0)
 	{
 		ret = _4XMA_set_pls_iptmode(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, 
-			pMotor->m_AxisID, 2, 0);
+			pMotor->m_AxisID, pMotor->m_EncoderMode, pMotor->m_EncoderLogic);
 		ret = _4XMA_set_pls_outmode(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID, 
 			pMotor->m_AxisID, pMotor->m_PulseMode);
 		ret = _4XMA_set_feedback_src(pMotor->m_CardID, pMotor->m_CardID, pMotor->m_StationID,
@@ -40,7 +40,7 @@ bool MMotionLib4XMA::Init(MMotor* pMotor)
 		if (ret == 0)
 		{
 			ret = _4XMA_set_home_config(pMotor->m_CardID, pMotor->m_CardID, pMotor->m_StationID,
-				pMotor->m_AxisID, pMotor->m_HomeMode, pMotor->m_OrgLogic, 0, 1, 0);
+				pMotor->m_AxisID, pMotor->m_HomeMode, pMotor->m_OrgLogic, pMotor->m_EZLogic, pMotor->m_EZCount, 0);
 			if (ret == 0)
 			{
 				MMotionLib::Init();
@@ -183,7 +183,7 @@ bool MMotionLib4XMA::isSVOn(MMotor* pMotor)
 bool MMotionLib4XMA::GetSpeed(MMotor* pMotor,double *pSpeed)
 {
 	I16 ret;
-	_4XMA_get_current_speed(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID,
+	ret=_4XMA_get_current_speed(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID,
 		pMotor->m_AxisID, pSpeed);
 	return(ret == 0);
 }
@@ -300,4 +300,12 @@ void MMotionLib4XMA::ResetALM(MMotor* pMotor,bool bValue)
 	return;
 }
 
+WORD MMotionLib4XMA::GetIOStatus(MMotor* pMotor)
+{
+	I16 ret; 
+	U16 sts;
+	ret = _4XMA_get_io_status(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID,
+		pMotor->m_AxisID,&sts);
+	return sts;
+}
 

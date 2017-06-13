@@ -48,13 +48,15 @@ bool MMotionLibVirtual::isMotion(MMotor* pMotor)
 {
 	return (m_AxisArray[GetMotorIndex(pMotor)]->m_mvStep != Step::stpDone);
 }
-double MMotionLibVirtual::GetSpeed(MMotor* pMotor)
+bool MMotionLibVirtual::GetSpeed(MMotor* pMotor, double *pSpeed)
 {
-	return m_AxisArray[GetMotorIndex(pMotor)]->m_dblCalSpeed;
+	*pSpeed= m_AxisArray[GetMotorIndex(pMotor)]->m_dblCalSpeed;
+	return true;
 }
-double MMotionLibVirtual::GetPosition(MMotor* pMotor)
+bool MMotionLibVirtual::GetPosition(MMotor* pMotor, double *pPos)
 {
-	return m_AxisArray[GetMotorIndex(pMotor)]->m_dblPos;
+	*pPos = m_AxisArray[GetMotorIndex(pMotor)]->m_dblPos;
+	return true;
 }
 void MMotionLibVirtual::Cycle(const double dblTime)
 {

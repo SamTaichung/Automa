@@ -211,7 +211,9 @@ bool CADOConnection::CreateMDB(CString PathFile)
 	}
 	catch(_com_error e) 
 	{
-		AfxMessageBox(_T("CreateMDB error!"));
+		CString strMsg;
+		strMsg = e.Description().GetBSTR();
+		AfxMessageBox(PathFile+_T(" Create Error!\n")+strMsg);
 	}
 	pCatalog.Release();
 	return TRUE;

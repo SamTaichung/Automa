@@ -30,8 +30,8 @@ namespace AutoLib {
 		AUTOMALIB_API bool Init(MMotor* pMotor);
 		AUTOMALIB_API void Cycle(const double dblTime);
 		AUTOMALIB_API bool isMotion(MMotor* pMotor);
-		AUTOMALIB_API double GetSpeed(MMotor* pMotor);
-		AUTOMALIB_API double GetPosition(MMotor* pMotor);
+		AUTOMALIB_API bool GetSpeed(MMotor* pMotor,double *pSpeed);
+		AUTOMALIB_API bool GetPosition(MMotor* pMotor,double *pPosition);
 	protected:
 		bool AMove(MMotor* pMotor,
 			double dblStartSpeed, double dblAccTime,

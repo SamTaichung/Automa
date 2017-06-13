@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E4A8FFD5-7136-4E57-BC73-4F805D811524}</ProjectGuid>
     <RootNamespace>Plugin</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -100,6 +100,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <AdditionalDependencies>AutomaLib32D.lib;AutomaUI32D.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -123,6 +124,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <AdditionalDependencies>AutomaLib64D.lib;AutomaUI64D.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -202,6 +204,7 @@
     <ClInclude Include="DlgConfigValve.h" />
     <ClInclude Include="DlgEmgStop.h" />
     <ClInclude Include="DlgError.h" />
+    <ClInclude Include="DlgMotorConfig.h" />
     <ClInclude Include="DlgPCB.h" />
     <ClInclude Include="DlgRecipe.h" />
     <ClInclude Include="DlgRecipePPArm.h" />
@@ -241,6 +244,7 @@
     <ClCompile Include="DlgConfigValve.cpp" />
     <ClCompile Include="DlgEmgStop.cpp" />
     <ClCompile Include="DlgError.cpp" />
+    <ClCompile Include="DlgMotorConfig.cpp" />
     <ClCompile Include="DlgPCB.cpp" />
     <ClCompile Include="DlgRecipe.cpp" />
     <ClCompile Include="DlgRecipePPArm.cpp" />

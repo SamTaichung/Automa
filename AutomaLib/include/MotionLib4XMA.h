@@ -44,6 +44,7 @@ namespace AutoLib {
 		AUTOMALIB_API virtual bool GetPosition(MMotor* pMotor, double *pSpeed);
 		AUTOMALIB_API virtual void SetPosition(MMotor* pMotor, double Pos);	//³]©w¦ì¸m
 		AUTOMALIB_API virtual void ResetALM(MMotor* pMotor, bool bValue);
+		AUTOMALIB_API virtual WORD GetIOStatus(MMotor* pMotor);
 
 	};
 }

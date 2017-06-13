@@ -3,6 +3,7 @@
 #include "ListCtrlEx.h"
 #include "ButtonAutoma.h"
 #include "EditAutoma.h"
+#include "DlgMotorConfig.h"
 #include "afxwin.h"
 // DlgConfigMotor ¹ï¸Ü¤è¶ô
 using namespace AutoUI;
@@ -57,5 +58,6 @@ public:
 	EditAutoma m_editHiSpeed,m_editLoSpeed;
 	EditAutoma m_editHiAccTime, m_editHiDesTime;
 	EditAutoma m_editLoAccTime, m_editLoDesTime;
-	CButton m_btLED[15];
+	ButtonAutoma m_btLED[15];
+	afx_msg void OnBnClickedBtnConfig();
 };
