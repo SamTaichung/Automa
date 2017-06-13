@@ -156,7 +156,7 @@ void MPilot::LoadMachineData(CADOConnection *pC, bool bAllChildsLoad)
 		pC->ExecuteSQL(strSQL);
 
 		strSQL.Format(_T("Insert into Pilot(ID,CName,EName,Rlight,GLight,YLight,Buzz) Values(%d,'%s','%s',%d,%d,%d,%d)"),
-			MPilot::PilotState::INITIAL, _T("機臺初始化"), _T("Initial"), 1, 0, 1, 2);
+			MPilot::PilotState::INITIAL, _T("機臺初始化"), _T("Initial"), 1, 0, 1, 10);
 		pC->ExecuteSQL(strSQL);
 		strSQL.Format(_T("Insert into Pilot(ID,CName,EName,Rlight,GLight,YLight,Buzz) Values(%d,'%s','%s',%d,%d,%d,%d)"),
 			MPilot::PilotState::IDLE, _T("待機停止"), _T("Cycle stop"), 0, 0, 1, 0);
@@ -171,15 +171,15 @@ void MPilot::LoadMachineData(CADOConnection *pC, bool bAllChildsLoad)
 		pC->ExecuteSQL(strSQL);
 
 		strSQL.Format(_T("Insert into Pilot(ID,CName,EName,Rlight,GLight,YLight,Buzz) Values(%d,'%s','%s',%d,%d,%d,%d)"),
-			MPilot::PilotState::ERROR_ON_AUTO, _T("自動中異常"), _T("Error on auto"), 1, 0, 1, 2);
+			MPilot::PilotState::ERROR_ON_AUTO, _T("自動中異常"), _T("Error on auto"), 1, 0, 1, 10);
 		pC->ExecuteSQL(strSQL);
 
 		strSQL.Format(_T("Insert into Pilot(ID,CName,EName,Rlight,GLight,YLight,Buzz) Values(%d,'%s','%s',%d,%d,%d,%d)"),
-			MPilot::PilotState::ERROR_ON_HOMING, _T("復歸中異常"), _T("Error on homing"), 1, 0, 1, 2);
+			MPilot::PilotState::ERROR_ON_HOMING, _T("復歸中異常"), _T("Error on homing"), 1, 0, 1, 10);
 		pC->ExecuteSQL(strSQL);
 
 		strSQL.Format(_T("Insert into Pilot(ID,CName,EName,Rlight,GLight,YLight,Buzz) Values(%d,'%s','%s',%d,%d,%d,%d)"),
-			MPilot::PilotState::ERROR_ON_MANUAL, _T("手動中異常"), _T("Error on manual"), 1, 0, 1, 2);
+			MPilot::PilotState::ERROR_ON_MANUAL, _T("手動中異常"), _T("Error on manual"), 1, 0, 1, 10);
 		pC->ExecuteSQL(strSQL);
 
 		strSQL.Format(_T("Insert into Pilot(ID,CName,EName,Rlight,GLight,YLight,Buzz) Values(%d,'%s','%s',%d,%d,%d,%d)"),
