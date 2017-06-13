@@ -1,0 +1,35 @@
+﻿[6/13/2017 - 18:7:21:918] X馬達 [BASE] Start RMove      0.10000 mm
+[6/13/2017 - 18:7:42:8] X馬達 [BASE] Start RMove      0.10000 mm
+[6/13/2017 - 18:8:39:908] X馬達 [BASE] Start RMove      0.10000 mm
+[6/13/2017 - 18:20:23:907] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:20:23:909] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:20:30:612] X馬達 [BASE] Start RMove     10.00000 mm
+[6/13/2017 - 18:20:30:612] X馬達 [BASE] Wait RMove
+[6/13/2017 - 18:20:37:231] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/13/2017 - 18:20:37:233] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:23:16:257] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:23:16:259] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:23:50:110] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:23:50:110] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:25:18:825] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:25:18:827] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:25:25:453] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:25:25:455] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:25:29:234] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/13/2017 - 18:25:29:234] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:31:3:220] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/13/2017 - 18:33:5:363] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:34:13:451] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:34:13:451] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:34:46:6] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/13/2017 - 18:34:46:6] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:35:5:13] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/13/2017 - 18:35:5:13] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:37:48:402] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:37:48:404] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:38:0:516] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/13/2017 - 18:38:0:516] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:38:27:283] X馬達 [BASE] Start AMove To      0.00000 mm
+[6/13/2017 - 18:38:27:285] X馬達 [BASE] Wait AMove
+[6/13/2017 - 18:38:34:88] X馬達 [BASE] Start AMove To  10000.00000 mm
+[6/13/2017 - 18:38:34:88] X馬達 [BASE] Wait AMove

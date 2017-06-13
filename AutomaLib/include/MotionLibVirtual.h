@@ -36,10 +36,14 @@ namespace AutoLib {
 		bool AMove(MMotor* pMotor,
 			double dblStartSpeed, double dblAccTime,
 			double dblMaxSpeed, double dblDesTime,double dblPos);
-		bool RMove(MMotor* pMotor, double d, double sp = 0);
-		bool Stop(MMotor* pMotor);
+		bool RMove(MMotor* pMotor,
+			double dblStartSpeed, double dblAccTime,
+			double dblMaxSpeed, double dblDesTime, double dblMove);
+		bool Stop(MMotor* pMotor, double dblDesTime);
 		bool EStop(MMotor* pMotor);
 		bool Home(MMotor* pMotor);
+		bool VMove(MMotor* pMotor, bool isP, double sp = 0) { return true; };
+		bool GotoLimit(MMotor* pMotor, bool isP, bool bSlow = true) { return true; };
 		int GetMotorIndex(MMotor* pMotor);
 		int m_intMotorInitCount;
 		CArray<VirtualMotorData*> m_AxisArray;

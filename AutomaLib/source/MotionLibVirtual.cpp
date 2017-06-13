@@ -159,10 +159,10 @@ bool MMotionLibVirtual::AMove(MMotor* pMotor,
 		{
 			dblDesTime = 0.001;
 		}
-		m_AxisArray[GetMotorIndex(pMotor)]->m_dblStartSpeed = dblStartSpeed;
-		m_AxisArray[GetMotorIndex(pMotor)]->m_dblAccTime = dblAccTime;
-		m_AxisArray[GetMotorIndex(pMotor)]->m_dblDesTime = dblDesTime;
-		m_AxisArray[GetMotorIndex(pMotor)]->m_dblMaxSpeed = dblMaxSpeed;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblStartSpeed = dblStartSpeed/1000;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblAccTime = dblAccTime*1000;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblDesTime = dblDesTime*1000;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblMaxSpeed = dblMaxSpeed/1000;
 
 		m_AxisArray[GetMotorIndex(pMotor)]->m_dblTargetPos = dblPos;
 		m_AxisArray[GetMotorIndex(pMotor)]->m_mvStep = Step::stpAcc;
@@ -170,19 +170,23 @@ bool MMotionLibVirtual::AMove(MMotor* pMotor,
 	}
 	return false;
 }
-bool MMotionLibVirtual::RMove(MMotor* pMotor,double d, double sp)
+bool MMotionLibVirtual::RMove(MMotor* pMotor,
+	double dblStartSpeed, double dblAccTime,
+	double dblMaxSpeed, double dblDesTime, double dblMove)
 {
-	static int count = 0; 
-	count++;
 	if (m_AxisArray[GetMotorIndex(pMotor)]->m_mvStep == Step::stpDone)
 	{
-		m_AxisArray[GetMotorIndex(pMotor)]->m_dblTargetPos = d+ m_AxisArray[GetMotorIndex(pMotor)]->m_dblTargetPos;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblStartSpeed = dblStartSpeed/1000;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblAccTime = dblAccTime*1000;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblDesTime = dblDesTime*1000;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblMaxSpeed = dblMaxSpeed/1000;
+		m_AxisArray[GetMotorIndex(pMotor)]->m_dblTargetPos = dblMove + m_AxisArray[GetMotorIndex(pMotor)]->m_dblTargetPos;
 		m_AxisArray[GetMotorIndex(pMotor)]->m_mvStep = Step::stpAcc;
 		return true;
 	}
 	return false;
 }
-bool MMotionLibVirtual::Stop(MMotor* pMotor)
+bool MMotionLibVirtual::Stop(MMotor* pMotor, double dblDesTime)
 {
 	m_AxisArray[GetMotorIndex(pMotor)]->m_mvStep = Step::stpDone;
 	m_AxisArray[GetMotorIndex(pMotor)]->m_dblTargetPos = m_AxisArray[GetMotorIndex(pMotor)]->m_dblPos;
@@ -191,7 +195,7 @@ bool MMotionLibVirtual::Stop(MMotor* pMotor)
 }
 bool MMotionLibVirtual::EStop(MMotor* pMotor)
 {
-	return Stop(pMotor);
+	return Stop(pMotor,0);
 }
 bool MMotionLibVirtual::Home(MMotor* pMotor)
 {

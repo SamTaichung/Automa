@@ -13,23 +13,18 @@ namespace AutoLib{
 		AUTOMALIB_API MMotionLib(MBase *pParent,CString strID,CString strName);
 		AUTOMALIB_API virtual ~MMotionLib();
 		AUTOMALIB_API virtual bool Init() { return MBase::Init(); };
-		AUTOMALIB_API virtual bool Init(MMotor* pMotor) { return false; };
-		AUTOMALIB_API virtual bool Stop(MMotor* pMotor, double dblDesTime) { return false; }; //減速停止
-		AUTOMALIB_API virtual bool EStop(MMotor* pMotor) { return false; }; //緊急停止
+		AUTOMALIB_API virtual bool Init(MMotor* pMotor)=0;
+		AUTOMALIB_API virtual bool Stop(MMotor* pMotor, double dblDesTime)=0; //減速停止
+		AUTOMALIB_API virtual bool EStop(MMotor* pMotor)=0; //緊急停止
 		AUTOMALIB_API virtual bool AMove(MMotor* pMotor,
 				double dblStartSpeed,double dblAccTime, 
-				double dblMaxSpeed,double dblDesTime,double dblPos) { return false; };
+				double dblMaxSpeed,double dblDesTime,double dblPos)=0;
 		AUTOMALIB_API virtual bool RMove(MMotor* pMotor,
 			double dblStartSpeed, double dblAccTime,
-			double dblMaxSpeed, double dblDesTime, double dblMove) {
-			return false;
-		};
-		AUTOMALIB_API virtual bool VMove(MMotor* pMotor,bool isP,double sp = 0) { return false; };
-		AUTOMALIB_API virtual bool Home(MMotor* pMotor) { return false; };
-		AUTOMALIB_API virtual bool GotoLimit(MMotor* pMotor,bool isP, bool bSlow = true)//isP=true 移到正極限; false 到負極限
-		{
-			return false;
-		};
+			double dblMaxSpeed, double dblDesTime, double dblMove)=0;
+		AUTOMALIB_API virtual bool VMove(MMotor* pMotor,bool isP,double sp = 0)=0;
+		AUTOMALIB_API virtual bool Home(MMotor* pMotor)=0;
+		AUTOMALIB_API virtual bool GotoLimit(MMotor* pMotor, bool isP, bool bSlow = true) = 0;
 		AUTOMALIB_API virtual bool isMotion(MMotor* pMotor);			//是否馬達正在動	
 		AUTOMALIB_API virtual bool isHoming(MMotor* pMotor);			//馬達是否在復歸中
 		AUTOMALIB_API virtual bool isInp(MMotor* pMotor);				//馬達是否Inposition(定位訊號On)
