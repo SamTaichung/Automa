@@ -35,6 +35,7 @@ void DlgComponents::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_BTN_ADD, m_btnAdd);
 	DDX_Control(pDX, IDC_BTN_DEL, m_btnDel);
 	DDX_Control(pDX, IDC_EDIT_HIGH, m_editHigh);
+	DDX_Control(pDX, IDC_EDIT_PICKANGLE, m_editPickAngle);
 }
 
 
@@ -47,6 +48,7 @@ BEGIN_MESSAGE_MAP(DlgComponents, CDialog)
 	ON_EN_SETFOCUS(IDC_EDIT_ID, &DlgComponents::OnEnSetfocusEditItem)
 	ON_EN_SETFOCUS(IDC_EDIT_NAME, &DlgComponents::OnEnSetfocusEditItem)
 	ON_EN_SETFOCUS(IDC_EDIT_HIGH, &DlgComponents::OnEnSetfocusEditItem)
+	ON_EN_SETFOCUS(IDC_EDIT_PICKANGLE, &DlgComponents::OnEnSetfocusEditItem)
 END_MESSAGE_MAP()
 
 
@@ -111,6 +113,7 @@ void DlgComponents::OnSelectComponent()
 		m_editID.SetWindowText(m_pComponent->m_strID);
 		m_editName.SetWindowText(m_pComponent->m_strName);
 		m_editHigh.SetValueExchange(m_pComponent->m_dblHight);
+		m_editPickAngle.SetValueExchange(m_pComponent->m_dblPickAngle);
 	}
 }
 void DlgComponents::OnLvnItemchangedListComponents(NMHDR *pNMHDR, LRESULT *pResult)
@@ -154,6 +157,8 @@ void DlgComponents::OnBnClickedBtnSave()
 		pComponent->m_strName.Trim();
 		m_editHigh.GetWindowText(strV);
 		pComponent->m_dblHight = _wtof(strV);
+		m_editPickAngle.GetWindowText(strV);
+		pComponent->m_dblPickAngle = _wtof(strV);
 		if (m_bAddMode) //·s¼W
 		{
 			pM->AddComponent(pComponent);
@@ -190,7 +195,8 @@ void DlgComponents::OnBnClickedBtnAdd()
 	m_editName.SetWindowText(_T(""));
 	m_dblHigh = 0;
 	m_editHigh.SetValueExchange(m_dblHigh);
-	m_editHigh.SetWindowText(_T(""));
+	m_dblPickAngle = 0;
+	m_editPickAngle.SetValueExchange(m_dblPickAngle);
 	m_editID.SetFocus();
 	RefreshBtns();
 
@@ -216,6 +222,7 @@ void DlgComponents::RefreshBtns()
 {
 	if (m_bEditMode)
 	{
+		m_listComponents.EnableWindow(FALSE);
 		m_btnAdd.EnableWindow(FALSE);
 		m_btnDel.EnableWindow(FALSE);
 		m_btnCancel.EnableWindow(TRUE);
@@ -232,6 +239,7 @@ void DlgComponents::RefreshBtns()
 		m_btnAdd.EnableWindow(TRUE);
 		m_btnCancel.EnableWindow(FALSE);
 		m_btnSave.EnableWindow(FALSE);
+		m_listComponents.EnableWindow(TRUE);
 	}
 }
 void DlgComponents::OnEnSetfocusEditItem()

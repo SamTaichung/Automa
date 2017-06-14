@@ -20,7 +20,6 @@ namespace AutoUI {
 	public:
 		afx_msg void OnEnKillfocus();
 		afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
-		afx_msg void OnEnSetfocus();
 	};
 
 }

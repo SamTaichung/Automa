@@ -43,6 +43,8 @@ public:
 	void StepCycle(const double dblTime);
 	void LoadRecipeData(CADOConnection * pC, bool bAllChildsLoad);
 	void SaveRecipeData(CADOConnection * pC, bool bAllChildsSave);
+	void LoadMachineData(CADOConnection * pC, bool bAllChildsLoad);
+	void SaveMachineData(CADOConnection * pC, bool bAllChildsSave);
 	//------------------------MUnit------------------------------------
 	bool AutoStart();
 	void SetPCBRecipe(PCBRecipe *pPCB);
@@ -54,7 +56,7 @@ public:
 	MPPArm *m_pArm[6];		//6組 PPArm
 	MFeeder *m_pFeeder[8];	//8組 Feeder
 	DCoordinate m_cdFeederPos; //Feeder基準位
-	DCoordinate m_cdFeederCCD;	//CCD基準位
+	DCoordinate m_cdCCD;		//CCD基準位
 protected:
 	void AllArmsUp();		//所有取臂上升到安全位
 	bool AllArmsAreIdle();	//所有取臂目前是否都IDLE

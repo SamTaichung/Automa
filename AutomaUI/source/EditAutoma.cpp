@@ -20,14 +20,11 @@ EditAutoma::~EditAutoma()
 
 BEGIN_MESSAGE_MAP(EditAutoma, CEdit)
 	ON_WM_KEYDOWN()
-	ON_CONTROL_REFLECT(EN_SETFOCUS, &EditAutoma::OnEnSetfocus)
 	ON_CONTROL_REFLECT(EN_KILLFOCUS, &EditAutoma::OnEnKillfocus)
 END_MESSAGE_MAP()
 
-void EditAutoma::OnEnSetfocus()
-{
-	SetSel(0, -1);
-}
+
+
 void EditAutoma::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags)
 {
 	// TODO: 在此加入您的訊息處理常式程式碼和 (或) 呼叫預設值

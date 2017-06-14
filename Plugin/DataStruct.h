@@ -10,7 +10,8 @@ public:
 		m_dblHight = 0;
 	}; 
 	CString m_strID, m_strName;
-	double m_dblHight; //元件高度
+	double m_dblHight;		//元件高度
+	double m_dblPickAngle;	//取料角度
 };
 struct PluginPoint
 {
@@ -19,8 +20,10 @@ public:
 		m_strComponentID = _T("");
 		m_bPlugFinish = false;
 		m_intArrangeArm = -1;
+		m_pComponent = NULL;
 	};
 	CString m_strComponentID;
+	ComponentData *m_pComponent;
 	DCoordinate m_cdPlugPosition;
 	DCoordinate m_cdPlugOffset;
 	bool m_bPlugFinish; 

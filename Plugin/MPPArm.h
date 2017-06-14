@@ -25,6 +25,7 @@ public:
 		StartPickComponent,
 		StartUpToCCDPos,
 		WaitArmUp,
+		WaitArmTurn,
 		StartPlug,
 		WaitPlugZDown,
 		WaitPlugValveClose,
@@ -45,8 +46,8 @@ public:
 	//---------------------------------------------------------------
 	bool UpToSafty();
 	bool DownToFeeder();
-	bool PlugComponent(double dblZ);
-	bool PickComponent(double dblZ);
+	bool PlugComponent(double dblR,double dblZ);
+	bool PickComponent(MFeeder*pFeeder, ComponentData *pComponent);
 	//---------------------------------------------------------------
 	void SetArmType(ArmType tp) { m_Type = tp; };
 	ArmType GetArmType() { return m_Type; };
@@ -75,7 +76,8 @@ public:
 	ArmType m_Type;					//取臂型式
 	DCoordinate m_cdPlugOffset;		//插件位偏移量
 	//----------------------------------------------------------------
-	double m_dblZ;
+	double m_dblZ,m_dblR;
+	ComponentData *m_pComponent;
 };
 
 

@@ -198,6 +198,7 @@
     <ClInclude Include="DlgComponents.h" />
     <ClInclude Include="DlgComponentSearch.h" />
     <ClInclude Include="DlgConfigIO.h" />
+    <ClInclude Include="DlgConfigMachine.h" />
     <ClInclude Include="DlgConfigMotor.h" />
     <ClInclude Include="DlgConfigPilot.h" />
     <ClInclude Include="DlgConfigTimer.h" />
@@ -238,6 +239,7 @@
     <ClCompile Include="DlgComponents.cpp" />
     <ClCompile Include="DlgComponentSearch.cpp" />
     <ClCompile Include="DlgConfigIO.cpp" />
+    <ClCompile Include="DlgConfigMachine.cpp" />
     <ClCompile Include="DlgConfigMotor.cpp" />
     <ClCompile Include="DlgConfigPilot.cpp" />
     <ClCompile Include="DlgConfigTimer.cpp" />

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "FormTabAutoma.h"
+#include "DlgConfigMachine.h"
 #include "DlgConfigMotor.h"
 #include "DlgConfigTimer.h"
 #include "DlgConfigValve.h"
@@ -34,6 +35,7 @@ public:
 #endif
 
 protected:
+	DlgConfigMachine m_pageMachine;
 	DlgConfigMotor m_pageMotor;
 	DlgConfigValve m_pageValve;
 	DlgConfigTimer m_pageTimer;

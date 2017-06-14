@@ -75,8 +75,8 @@ void MMotionLibVirtual::Cycle(const double dblTime)
 				//----------------目前的速度所需要的減速時間----------------
 				if (pVMD->m_dblCalSpeed > 0)
 				{
-					dblDecTime = pVMD->m_dblLastDist * 2 / fabs(pVMD->m_dblStartSpeed + pVMD->m_dblCalSpeed);
-					if (dblDecTime < pVMD->m_dblDesTime) //目前剩餘距離要減速不夠
+					dblDecTime = fabs((pVMD->m_dblCalSpeed-pVMD->m_dblStartSpeed)*pVMD->m_dblDesTime/(pVMD->m_dblMaxSpeed-pVMD->m_dblStartSpeed));
+					if (dblDecTime > pVMD->m_dblDesTime) //目前剩餘距離要減速不夠
 					{
 						pVMD->m_mvStep = Step::stpDec;
 						break;

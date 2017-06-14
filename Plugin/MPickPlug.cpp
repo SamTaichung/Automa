@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "Plugin.h"
 #include "MPickPlug.h"
-
+#include "Machine.h"
 
 // MConveyor
 
@@ -152,6 +152,7 @@ void MPickPlug::StepCycle(const double dblTime)
 
 			if (AllArmsAreIdle())
 			{
+				AllArmsUp();
 				m_Step = STEP::WaitArmUpToFeeder;
 			}
 		}
@@ -190,10 +191,9 @@ void MPickPlug::StepCycle(const double dblTime)
 	case STEP::StartToPick:
 		{
 			m_strStepName.Format(_T("Start Arm%d Pick Feeder%d"), m_PickArmIndex + 1, m_PickFeederIndex + 1);
-			double dblZ;
-			dblZ = m_pFeeder[m_PickFeederIndex]->m_cdBase.z;
-
-			if (m_pArm[m_PickArmIndex]->PickComponent(dblZ))
+			Machine *pM = (Machine*)(GetTopParent());
+			ComponentData *pComp = pM->GetComponent(m_pFeeder[m_PickFeederIndex]->m_strComponentID);
+			if (m_pArm[m_PickArmIndex]->PickComponent(m_pFeeder[m_PickFeederIndex],pComp))
 			{
 				m_Step = STEP::WaitPickComponent;
 			}
@@ -204,8 +204,11 @@ void MPickPlug::StepCycle(const double dblTime)
 			m_strStepName.Format(_T("Wait Arm%d Pick [Recipe%d:%s]"), m_PickArmIndex + 1,
 				m_pArm[m_PickArmIndex]->m_intArrangeForRecipe+1,
 				m_pFeeder[m_PickFeederIndex]->m_strComponentID);
+			double dblR=m_pPCB->GetPlugPoint(m_pArm[m_PickArmIndex]->m_intArrangeForRecipe)->m_cdPlugPosition.s;
 			if (m_pArm[m_PickArmIndex]->isIDLE())
 			{
+				//轉到插件角度
+				m_pArm[m_PickArmIndex]->m_pRMotor->AMove(dblR);
 				m_pArm[m_PickArmIndex]->SetPickRecipe(m_pArm[m_PickArmIndex]->m_intArrangeForRecipe);
 				m_Step = STEP::PreArrangePickFeeder;
 			}
@@ -214,7 +217,10 @@ void MPickPlug::StepCycle(const double dblTime)
 	case STEP::StartAlignComponent:
 		{
 			m_strStepName=_T("Start Align Component");
-			m_Step = STEP::WaitAlignStartPos;
+			if (AllArmsAreIdle())
+			{
+				m_Step = STEP::WaitAlignStartPos;
+			}
 		}
 		break;
 	case STEP::WaitAlignStartPos:
@@ -282,9 +288,10 @@ void MPickPlug::StepCycle(const double dblTime)
 	case STEP::StartArmDownToPlug:
 		{
 			m_strStepName = _T("Start Arm Down To Plug");
-			double dblZ;
+			double dblR,dblZ;
+			dblR = m_pPCB->GetPlugPoint(m_RecipeIndex)->m_cdPlugPosition.s;
 			dblZ = m_pPCB->GetPlugPoint(m_RecipeIndex)->m_cdPlugPosition.z;
-			if (m_pArm[m_PickArmIndex]->PlugComponent(dblZ))
+			if (m_pArm[m_PickArmIndex]->PlugComponent(dblR,dblZ))
 			{
 				m_Step = STEP::WaitArmToPlug;
 			}
@@ -373,6 +380,70 @@ void MPickPlug::SaveRecipeData(CADOConnection * pC, bool bAllChildsSave)
 {
 	MUnit::SaveRecipeData(pC, bAllChildsSave);
 }
+void MPickPlug::LoadMachineData(CADOConnection * pC, bool bAllChildsLoad)
+{
+	CADORecordset rsTmp;
+	CString strSQL;
+	_variant_t id, v;
+	if (pC->GetTableIndex(_T("PickPlug"))<0)
+	{
+		strSQL = _T("Create Table PickPlug(");
+		strSQL += _T("CCDXBase float not null default 0,");
+		strSQL += _T("CCDYBase float not null default 0,");
+		strSQL += _T("CCDZBase float not null default 0,");
+		strSQL += _T("FeederXBase float not null default 0,");
+		strSQL += _T("FeederYBase float not null default 0,");
+		strSQL += _T("FeederZBase float not null default 0)");
+		pC->BeginTrans();
+		pC->ExecuteSQL(strSQL);
+		pC->CommitTrans();
+	}
+	if (rsTmp.Open(_T("Select * From PickPlug"), pC))
+	{
+		if (rsTmp.isEOF()) {
+			pC->BeginTrans();
+			rsTmp.AddNew();
+			rsTmp.SetValue(_T("CCDXBase"), m_cdCCD.x);
+			rsTmp.SetValue(_T("CCDYBase"), m_cdCCD.y);
+			rsTmp.SetValue(_T("CCDZBase"), m_cdCCD.z);
+			rsTmp.SetValue(_T("FeederXBase"), m_cdFeederPos.x);
+			rsTmp.SetValue(_T("FeederYBase"), m_cdFeederPos.y);
+			rsTmp.SetValue(_T("FeederZBase"), m_cdFeederPos.z);
+			rsTmp.Update();
+			pC->CommitTrans();
+		}
+		rsTmp.GetValue(_T("CCDXBase"), m_cdCCD.x);
+		rsTmp.GetValue(_T("CCDYBase"), m_cdCCD.y);
+		rsTmp.GetValue(_T("CCDZBase"), m_cdCCD.z);
+		rsTmp.GetValue(_T("FeederXBase"), m_cdFeederPos.x);
+		rsTmp.GetValue(_T("FeederYBase"), m_cdFeederPos.y);
+		rsTmp.GetValue(_T("FeederZBase"), m_cdFeederPos.z);
+		rsTmp.Close();
+	}
+	MUnit::LoadMachineData(pC, bAllChildsLoad);
+}
+void MPickPlug::SaveMachineData(CADOConnection * pC, bool bAllChildsSave)
+{
+	CADORecordset rsTmp;
+	_variant_t id, v;
+	if (rsTmp.Open(_T("Select * From PickPlug"), pC))
+	{
+		pC->BeginTrans();
+		if (rsTmp.isEOF()) {
+			rsTmp.AddNew();
+		}
+		rsTmp.SetValue(_T("CCDXBase"), m_cdCCD.x);
+		rsTmp.SetValue(_T("CCDYBase"), m_cdCCD.y);
+		rsTmp.SetValue(_T("CCDZBase"), m_cdCCD.z);
+		rsTmp.SetValue(_T("FeederXBase"), m_cdFeederPos.x);
+		rsTmp.SetValue(_T("FeederYBase"), m_cdFeederPos.y);
+		rsTmp.SetValue(_T("FeederZBase"), m_cdFeederPos.z);
+		rsTmp.Update();
+		pC->CommitTrans();
+		rsTmp.Close();
+	}
+	MUnit::SaveMachineData(pC, bAllChildsSave);
+}
 int MPickPlug::GetArrangeCount()
 {
 	int bRet = 0;
@@ -431,6 +502,7 @@ void MPickPlug::ArrangePickArm()
 	{
 		PluginPoint *pPoint;
 		pPoint = m_pPCB->GetPlugPoint(i);
+		
 		if (pPoint->m_bPlugFinish) {
 			pPoint->m_intArrangeArm = -1;
 		}

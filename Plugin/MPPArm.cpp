@@ -14,7 +14,11 @@ MPPArm::MPPArm(MUnit *pParent, CString strID, CString strName):
 	m_intArrangeForRecipe = -1;
 	m_dblZSafty = 100;
 	m_dblZOffset = 0;
+	//---------------------------------------------------------
+	m_pComponent = NULL;
+	m_pFeeder = NULL;
 	m_dblZ = 0;
+	m_dblR = 0;
 }
 
 MPPArm::~MPPArm()
@@ -148,7 +152,7 @@ void MPPArm::SaveMachineData(CADOConnection * pC, bool bAllChildsSave)
 }
 void MPPArm::StepCycle(const double dblTime)
 {
-	double dblZ;
+	double dblZ,dblR;
 	switch (m_Step)
 	{
 	case STEP::StartHome:
@@ -170,15 +174,43 @@ void MPPArm::StepCycle(const double dblTime)
 		}
 		break;
 	case STEP::StartPick:
-		m_strStepName=_T("Start Pick %s");
-		m_Step = STEP::StartDownToFeeder;
+		{
+			if (m_pComponent == NULL)
+			{
+				m_strStepName = _T("Start Pick (Component=NULL)");
+				dblR = 0;
+			}
+			else {
+				m_strStepName.Format(_T("Start Pick (%s:%s)"),m_pComponent->m_strID,m_pComponent->m_strName);
+				dblR = m_pComponent->m_dblPickAngle;
+			}
+			if (m_pRMotor->AMove(dblR))
+			{
+				m_Step = STEP::StartDownToFeeder;
+			}
+		}
 		break;
 	case STEP::StartDownToFeeder:
 		{
-			m_strStepName = _T("Down To Feeder");
-			if (m_pZMotor->AMove(m_dblZ))
+			if (m_pFeeder == NULL)
 			{
-				m_Step = STEP::StartPickComponent;
+				m_strStepName=_T("Wait R motor then Down To Feeder(NULL)");
+				dblZ = 0;
+			}
+			else {
+				m_strStepName.Format(_T("Wait R motor then Down To Feeder(%s)"), m_pFeeder->m_strName);
+				dblZ = m_pFeeder->m_cdBase.z;
+				if (m_pComponent != NULL)
+				{
+					dblZ = dblZ + m_pComponent->m_dblHight;
+				}
+			}
+			if (m_pRMotor->isIDLE())
+			{
+				if (m_pZMotor->AMove(dblZ))
+				{
+					m_Step = STEP::StartPickComponent;
+				}
 			}
 		}
 		break;
@@ -208,8 +240,14 @@ void MPPArm::StepCycle(const double dblTime)
 			}
 		}
 		break;
-		
 	case STEP::WaitArmUp:
+		m_strStepName = _T("Wait Arm Up");
+		if (m_pZMotor->isIDLE())
+		{
+			m_Step = STEP::WaitArmTurn;
+		}
+		break;
+	case STEP::WaitArmTurn:
 		m_strStepName = _T("Wait Arm Up");
 		if (m_pZMotor->isIDLE())
 		{
@@ -272,27 +310,29 @@ bool MPPArm::UpToSafty()
 }
 bool MPPArm::DownToFeeder()
 {
-	if (DoStep(STEP::StartDownToFeeder))
+	if (DoStep(STEP::StartPick))
 	{
 		m_Mode = MBase::MODE::MANUAL;
 		return true;
 	}
 	return false;
 }
-bool MPPArm::PickComponent(double dblZ)
+bool MPPArm::PickComponent(MFeeder *pF,ComponentData* pC)
 {
-	if (DoStep(STEP::StartDownToFeeder))
+	if (DoStep(STEP::StartPick))
 	{
-		m_dblZ = dblZ;
+		m_pFeeder = pF;
+		m_pComponent = pC;
 		m_Mode = MBase::MODE::AUTO;
 		return true;
 	}
 	return false;
 }
-bool MPPArm::PlugComponent(double dblZ)
+bool MPPArm::PlugComponent(double dblR, double dblZ)
 {
 	if (DoStep(STEP::StartPlug))
 	{
+		m_dblR = dblR;
 		m_dblZ = dblZ;
 		m_Mode = MBase::MODE::AUTO;
 		return true;

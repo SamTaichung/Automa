@@ -101,6 +101,7 @@ bool Machine::AddComponent(ComponentData* pComponent)
 		rsTmp.SetValue(_T("ID"), pComponent->m_strID);
 		rsTmp.SetValue(_T("Name"), pComponent->m_strName);
 		rsTmp.SetValue(_T("High"), pComponent->m_dblHight);
+		rsTmp.SetValue(_T("PickAngle"), pComponent->m_dblPickAngle);
 		rsTmp.Update();
 		m_cnnComponents.CommitTrans();
 		bRet = true;
@@ -126,6 +127,7 @@ bool Machine::UpdateComponent(CString strOldID,ComponentData* pComponent)
 		rsTmp.SetValue(_T("ID"), pComponent->m_strID);
 		rsTmp.SetValue(_T("Name"), pComponent->m_strName);
 		rsTmp.SetValue(_T("High"), pComponent->m_dblHight);
+		rsTmp.SetValue(_T("PickAngle"), pComponent->m_dblPickAngle);
 		rsTmp.Update();
 		m_cnnComponents.CommitTrans();
 		bRet = true;
@@ -161,7 +163,7 @@ bool Machine::LoadComponentDatas()
 	if (m_cnnComponents.GetTableIndex(_T("ComponentLib"))<0)
 	{
 		strSQL = _T("Create Table ComponentLib(ID nChar(20),");
-		strSQL += _T("Name nChar(20),High float default 0,");
+		strSQL += _T("Name nChar(20),High float default 0,PickAngle float default 0,");
 		strSQL += _T("Constraint PKComponentLib Primary Key(ID))");
 		m_cnnComponents.BeginTrans();
 		m_cnnComponents.ExecuteSQL(strSQL);
@@ -179,6 +181,8 @@ bool Machine::LoadComponentDatas()
 			rsTmp.GetValue(_T("Name"), pCD->m_strName);
 			pCD->m_strName.Trim();
 			rsTmp.GetValue(_T("High"), pCD->m_dblHight);
+			pCD->m_strName.Trim();
+			rsTmp.GetValue(_T("PickAngle"), pCD->m_dblPickAngle);
 			m_mapComponents.insert(map<CString, ComponentData*>::value_type(pCD->m_strID,pCD));
 			rsTmp.MoveNext();
 		}

@@ -60,6 +60,9 @@ BOOL DlgRecipePPArm::OnInitDialog()
 	m_listFeeders.InsertColumn(0, _T("供料編號"), LVCFMT_LEFT, Width*0.1);
 	m_listFeeders.InsertColumn(1, _T("元件編號"), LVCFMT_LEFT, Width*0.2);
 	m_listFeeders.InsertColumn(2, _T("元件名稱"), LVCFMT_LEFT, Width*0.4);
+	m_listPPArms.InsertColumn(3, _T("取料位X"), LVCFMT_RIGHT, Width*0.1);
+	m_listPPArms.InsertColumn(3, _T("取料位Y"), LVCFMT_RIGHT, Width*0.1);
+	m_listPPArms.InsertColumn(3, _T("取料位Z"), LVCFMT_RIGHT, Width*0.1);
 	m_listFeeders.SetColumnEditor(1, &DlgRecipePPArm::InitEditor_Feeder, &DlgRecipePPArm::EndEditor_Feeder,NULL);
 
 	return TRUE;  // return TRUE unless you set the focus to a control

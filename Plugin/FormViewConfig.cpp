@@ -48,16 +48,19 @@ void FormViewConfig::Dump(CDumpContext& dc) const
 void FormViewConfig::OnInitialUpdate()
 {
 	FormTabAutoma::OnInitialUpdate();
+	m_pageMachine.Create(IDD_DLG_MACHINE, this);
 	m_pageMotor.Create(IDD_DLG_MOTOR, this);
 	m_pageValve.Create(IDD_DLG_VALVE, this);
 	m_pageTimer.Create(IDD_DLG_TIMER, this);
 	m_pageIO.Create(IDD_DLG_IO, this);
 	m_pagePilot.Create(IDD_DLG_PILOT, this);
+	m_pageMachine.SetWindowTextW(_T("Machine"));
 	m_pageMotor.SetWindowTextW(_T("Motor"));
 	m_pageValve.SetWindowTextW(_T("Valve"));
 	m_pageTimer.SetWindowTextW(_T("Timer"));
 	m_pageIO.SetWindowTextW(_T("IO"));
 	m_pagePilot.SetWindowTextW(_T("Pilot"));
+	AddPage(&m_pageMachine);
 	AddPage(&m_pageMotor);
 	AddPage(&m_pageValve);
 	AddPage(&m_pageTimer);

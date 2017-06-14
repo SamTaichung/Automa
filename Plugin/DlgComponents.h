@@ -48,6 +48,7 @@ protected:
 	afx_msg void OnBnClickedBtnAdd();
 	afx_msg void OnBnClickedBtnDel();
 	afx_msg void OnEnSetfocusEditItem();
-	EditAutoma m_editHigh;
+	EditAutoma m_editHigh,m_editPickAngle;
 	double m_dblHigh;
+	double m_dblPickAngle;
 };

@@ -61,6 +61,7 @@
 #define IDC_BTN_CANCEL                  1007
 #define IDC_EDIT_SEARCH                 1007
 #define IDC_BTN_SEARCH                  1008
+#define IDC_EDIT_PICKANGLE              1008
 #define IDC_COMBO1                      1009
 #define IDC_BTN_YP                      1010
 #define IDC_BTN_YM                      1011
@@ -98,9 +99,12 @@
 #define IDC_LIST_MSG                    1025
 #define IDC_EDIT_P2                     1025
 #define IDC_CMB_NX                      1025
+#define IDC_EDIT_FDX                    1025
 #define IDC_STATIC_LOGO                 1026
 #define IDC_BTN_TEST                    1026
 #define IDC_CMB_NY                      1026
+#define IDC_EDIT_BASE_Y2                1026
+#define IDC_EDIT_FDY                    1026
 #define IDC_BTN_RMOVEM                  1027
 #define IDC_STATIC_HAPPENER_CAP         1027
 #define IDC_EDIT_PITCH_X                1027
@@ -113,6 +117,7 @@
 #define IDC_EDIT_BASE_Z                 1029
 #define IDC_BTN_PITCH5                  1030
 #define IDC_STATIC_SOLUTION_CAP         1030
+#define IDC_EDIT_FDZ                    1030
 #define IDC_BTN_SAVE                    1031
 #define IDC_STATIC_EMGSTOP              1031
 #define IDC_BTN_P1                      1032
@@ -153,15 +158,19 @@
 #define IDC_STC_Y_POS                   1043
 #define IDC_LED4                        1043
 #define IDC_CMB_ELL                     1043
+#define IDC_EDIT_ARM_X                  1043
 #define IDC_STC_Z1                      1044
 #define IDC_LED5                        1044
 #define IDC_CMB_LTCSD                   1044
+#define IDC_EDIT_CCD_X                  1044
 #define IDC_STC_R1                      1045
 #define IDC_LED6                        1045
 #define IDC_CMB_LTCL                    1045
+#define IDC_EDIT_CCD_Y                  1045
 #define IDC_STC_Z2                      1046
 #define IDC_LED7                        1046
 #define IDC_CMB_SDL                     1046
+#define IDC_EDIT_CCD_Z                  1046
 #define IDC_STC_R2                      1047
 #define IDC_LED8                        1047
 #define IDC_CMB_SDM                     1047
@@ -187,6 +196,7 @@
 #define IDC_TREE_SYSTEM                 1349
 #define IDD_DLG_SYSTEM_STATUS           11170
 #define IDD_DLG_AUTO_MOTORS             11171
+#define IDD_DLG_MACHINE                 11172
 #define ID_32771                        32771
 #define ID_Menu                         32772
 #define ID_32773                        32773
@@ -198,7 +208,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        314
 #define _APS_NEXT_COMMAND_VALUE         32775
-#define _APS_NEXT_CONTROL_VALUE         1043
+#define _APS_NEXT_CONTROL_VALUE         1047
 #define _APS_NEXT_SYMED_VALUE           310
 #endif
 #endif
