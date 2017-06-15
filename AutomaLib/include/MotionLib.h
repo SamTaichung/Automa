@@ -22,9 +22,11 @@ namespace AutoLib{
 		AUTOMALIB_API virtual bool RMove(MMotor* pMotor,
 			double dblStartSpeed, double dblAccTime,
 			double dblMaxSpeed, double dblDesTime, double dblMove)=0;
-		AUTOMALIB_API virtual bool VMove(MMotor* pMotor,bool isP,double sp = 0)=0;
-		AUTOMALIB_API virtual bool Home(MMotor* pMotor)=0;
-		AUTOMALIB_API virtual bool GotoLimit(MMotor* pMotor, bool isP, bool bSlow = true) = 0;
+		AUTOMALIB_API virtual bool VMove(MMotor* pMotor, bool isP, double sp = 0){ return true; };
+		AUTOMALIB_API virtual bool Home(MMotor* pMotor,
+			double dblStartSpeed, double dblAccTime,
+			double dblMaxSpeed, double dblOffset) = 0;
+		AUTOMALIB_API virtual bool GotoLimit(MMotor* pMotor, bool isP, bool bSlow = true){ return true; };
 		AUTOMALIB_API virtual bool isMotion(MMotor* pMotor);			//是否馬達正在動	
 		AUTOMALIB_API virtual bool isHoming(MMotor* pMotor);			//馬達是否在復歸中
 		AUTOMALIB_API virtual bool isInp(MMotor* pMotor);				//馬達是否Inposition(定位訊號On)

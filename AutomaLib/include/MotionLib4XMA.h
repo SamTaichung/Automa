@@ -45,6 +45,7 @@ namespace AutoLib {
 		AUTOMALIB_API virtual void SetPosition(MMotor* pMotor, double Pos);	//設定位置
 		AUTOMALIB_API virtual void ResetALM(MMotor* pMotor, bool bValue);
 		AUTOMALIB_API virtual WORD GetIOStatus(MMotor* pMotor);
+		AUTOMALIB_API virtual bool SetSVOn(MMotor* pMotor, bool isOn);	//設定是否要Server On
 
 	};
 }

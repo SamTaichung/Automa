@@ -99,21 +99,11 @@ void MBase::Cycle(const double dblTime)
 		if (m_bRecordLog)
 		{
 			MMessage *pMsg = new MMessage();
-			pMsg->MsgType = MMessage::MESSAGETYPE::LogToFile;
+			pMsg->MsgType = MMessage::MESSAGETYPE::StepLog;
 			pMsg->strMessage = m_strName + _T(" [") + GetModeName() + _T("] ") + m_strStepName;
 			ShowMessage(pMsg);
-			m_bRecordLog = false;
 		}		
-		if (m_bLog)
-		{
-			if (m_State == STATE::ACTION)
-			{
-				if (intPreStep != m_Step || m_State!=intPreState) //Step Change
-				{
-					m_bRecordLog = true;
-				}
-			}
-		}
+		m_bRecordLog = m_bLog && (intPreStep != m_Step || m_State != intPreState); //Step Change
 	}
 	for (itChild=m_Childs.begin();itChild!=m_Childs.end();++itChild)
 	{

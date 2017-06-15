@@ -98,8 +98,10 @@ void MMotionLibVirtual::Cycle(const double dblTime)
 			break;
 			case Step::stpHiSpeed:
 			{
-				dblDecTime = pVMD->m_dblLastDist * 2 /
-					fabs(pVMD->m_dblStartSpeed + pVMD->m_dblCalSpeed);
+				//dblDecTime = pVMD->m_dblLastDist * 2 /
+				//	fabs(pVMD->m_dblStartSpeed + pVMD->m_dblCalSpeed);
+	  			 dblDecTime = fabs((pVMD->m_dblCalSpeed - pVMD->m_dblStartSpeed)*pVMD->m_dblDesTime / (pVMD->m_dblMaxSpeed - pVMD->m_dblStartSpeed));
+
 				if (dblDecTime < pVMD->m_dblDesTime) //目前剩餘距離要減速不夠
 				{
 					pVMD->m_mvStep = Step::stpDec;
@@ -197,7 +199,9 @@ bool MMotionLibVirtual::EStop(MMotor* pMotor)
 {
 	return Stop(pMotor,0);
 }
-bool MMotionLibVirtual::Home(MMotor* pMotor)
+bool MMotionLibVirtual::Home(MMotor* pMotor,
+	double dblStartSpeed, double dblAccTime,
+	double dblMaxSpeed, double dblOffset)
 {
 	m_AxisArray[GetMotorIndex(pMotor)]->m_mvStep = Step::stpDone;
 	m_AxisArray[GetMotorIndex(pMotor)]->m_dblPos = 0;

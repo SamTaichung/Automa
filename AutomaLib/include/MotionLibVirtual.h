@@ -41,7 +41,9 @@ namespace AutoLib {
 			double dblMaxSpeed, double dblDesTime, double dblMove);
 		bool Stop(MMotor* pMotor, double dblDesTime);
 		bool EStop(MMotor* pMotor);
-		bool Home(MMotor* pMotor);
+		bool Home(MMotor* pMotor,
+			double dblStartSpeed, double dblAccTime,
+			double dblMaxSpeed, double dblOffset);
 		bool VMove(MMotor* pMotor, bool isP, double sp = 0) { return true; };
 		bool GotoLimit(MMotor* pMotor, bool isP, bool bSlow = true) { return true; };
 		int GetMotorIndex(MMotor* pMotor);

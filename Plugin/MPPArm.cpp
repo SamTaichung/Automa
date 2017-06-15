@@ -288,6 +288,7 @@ void MPPArm::StepCycle(const double dblTime)
 				}
 			}
 		}
+		break;
 	case STEP::WaitPlugZUpToSafty:
 		{
 			m_strStepName = _T("Wait Z up");

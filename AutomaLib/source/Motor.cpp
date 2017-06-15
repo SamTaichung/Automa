@@ -106,7 +106,8 @@ void MMotor::StepCycle(const double dblTime)
 		if (QuerySafe(this, m_State, m_Step, m_Mode, &strReason))
 		{
 			m_HomeErrorCode = 0;
-			if (m_pMotionLib->Home(this))
+			dblSpeed = abs(m_HomeSpeed / m_Coefficient)*(m_HomeDir?1:-1);
+			if (m_pMotionLib->Home(this, 0, m_HomeAccTime, dblSpeed, 0))
 			{
 				if (m_pTMHome != NULL)
 				{
@@ -427,12 +428,7 @@ void MMotor::StepCycle(const double dblTime)
 }
 bool MMotor::SetSVOn(bool isOn)
 {
-	m_isSVOn=isOn ^ m_SVOnLogic;
-	if (!isOn)
-	{
-		m_bHomeComplete=false;
-	}
-	return true;
+	return m_pMotionLib->SetSVOn(this, isOn);
 }
 bool MMotor::AMove(double p,double sp)
 {
@@ -575,6 +571,11 @@ bool MMotor::isALM()
 }
 bool MMotor::Init() 
 {
+	m_Coefficient = 1;
+	if (m_PulseRev != 0)
+	{
+		m_Coefficient = m_UnitRev / m_PulseRev*((m_AxisDir) ? 1 : -1);
+	}
 	return  m_pMotionLib->Init(this) && SetSVOn(true) && MBase::Init();
 }
 void MMotor::LoadMachineData(CADOConnection * pC, bool bAllChildsLoad)
@@ -687,11 +688,6 @@ void MMotor::LoadMachineData(CADOConnection * pC, bool bAllChildsLoad)
 			rsTmp.GetValue(_T("EZLogic"), m_EZLogic);
 		}
 		rsTmp.Close();
-		m_Coefficient=1;
-		if (m_PulseRev!=0)
-		{
-			m_Coefficient=m_UnitRev/m_PulseRev*((m_AxisDir)?1:-1);
-		}
 	}
 	MBase::LoadMachineData(pC,bAllChildsLoad);
 }

@@ -144,6 +144,7 @@
 #define IDC_TAB_RECIPE                  1040
 #define IDC_LIST_IO_Y                   1040
 #define IDC_LED1                        1040
+#define IDC_EDIT_HOMESPEED              1040
 #define IDC_LIST_RECIPES                1041
 #define IDC_TAB_DISPLAY                 1041
 #define IDC_LED2                        1041
@@ -179,6 +180,7 @@
 #define IDC_CMB_ORGL                    1048
 #define IDC_STC_R3                      1049
 #define IDC_LED10                       1049
+#define IDC_CMB_HOMEMODE                1049
 #define IDC_STC_Z4                      1050
 #define IDC_LED11                       1050
 #define IDC_CMB_SVL                     1050
@@ -187,12 +189,19 @@
 #define IDC_CMB_EZL                     1051
 #define IDC_STC_Z5                      1052
 #define IDC_BTN_CONFIG                  1052
+#define IDC_EDIT_HOMEACT                1052
 #define IDC_STC_R5                      1053
+#define IDC_CMB_AXISDIR                 1053
 #define IDC_STC_Z6                      1054
 #define IDC_LED13                       1054
+#define IDC_CMB_HOMEDIR                 1054
 #define IDC_STC_R6                      1055
 #define IDC_LED14                       1055
+#define IDC_EDIT_HOMEDES                1055
 #define IDC_LED15                       1056
+#define IDC_EDIT_UnitRev                1056
+#define IDC_EDIT_HOMEDES3               1057
+#define IDC_EDIT_PulseRev               1057
 #define IDC_TREE_SYSTEM                 1349
 #define IDD_DLG_SYSTEM_STATUS           11170
 #define IDD_DLG_AUTO_MOTORS             11171

@@ -16,7 +16,7 @@ namespace AutoLib {
 		AUTOMALIB_API virtual ~MMessage(void);
 		enum MESSAGETYPE
 		{
-			LogToFile,
+			StepLog,			//步序記錄
 			ShowError,			//顯示錯誤
 			ShowWarning,		//顯示警告
 			ShowMessage,		//顯示訊息

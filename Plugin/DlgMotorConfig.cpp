@@ -40,6 +40,14 @@ void DlgMotorConfig::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_CMB_SVL, m_cmbSVONLogic);
 	DDX_Control(pDX, IDC_CMB_EZL, m_cmbEZLogic);
 	DDX_Control(pDX, IDC_CMB_ENCL, m_cmbEncLogic);
+	DDX_Control(pDX, IDC_CMB_HOMEMODE, m_cmbHomeMode);
+	DDX_Control(pDX, IDC_CMB_AXISDIR, m_cmbAxisDir);
+	DDX_Control(pDX, IDC_CMB_HOMEDIR, m_cmbHomeDir);
+	DDX_Control(pDX, IDC_EDIT_HOMESPEED, m_editHomeSpeed);
+	DDX_Control(pDX, IDC_EDIT_HOMEACT, m_editHomeAccTime);
+	DDX_Control(pDX, IDC_EDIT_HOMEDES, m_editHomeDesTime);
+	DDX_Control(pDX, IDC_EDIT_UnitRev, m_editUnitRev);
+	DDX_Control(pDX, IDC_EDIT_PulseRev, m_editPulseRev);
 }
 
 
@@ -58,6 +66,11 @@ BOOL DlgMotorConfig::OnInitDialog()
 	CString strMode;
 
 	// TODO:  在此加入額外的初始化
+	for (int i = 0; i<13; i++)
+	{
+		strMode.Format(_T("%2d"), i);
+		this->m_cmbHomeMode.AddString(strMode);
+	}
 	for (int i = 0; i<8; i++)
 	{
 		strMode.Format(_T("%d"), i);
@@ -112,6 +125,14 @@ BOOL DlgMotorConfig::OnInitDialog()
 	this->m_cmbSDMode.AddString(strMode);
 	strMode = _T("1:SlowStop");
 	this->m_cmbSDMode.AddString(strMode);
+
+	strMode = _T("0:Normal");
+	this->m_cmbAxisDir.AddString(strMode);
+	this->m_cmbHomeDir.AddString(strMode);
+	strMode = _T("1:Inverse");
+	this->m_cmbAxisDir.AddString(strMode);
+	this->m_cmbHomeDir.AddString(strMode);
+	m_cmbHomeMode.SetCurSel(m_pMotor->m_HomeMode);
 	m_cmbPlsMode.SetCurSel(m_pMotor->m_PulseMode);
 	m_cmbCountSource.SetCurSel(m_pMotor->m_CountSource);
 	m_cmbEncoder.SetCurSel(m_pMotor->m_EncoderMode);
@@ -128,7 +149,13 @@ BOOL DlgMotorConfig::OnInitDialog()
 	m_cmbSDMode.SetCurSel(m_pMotor->m_SDMode);
 	m_cmbSVONLogic.SetCurSel(m_pMotor->m_SVOnLogic ? 1 : 0);
 	m_cmbEZLogic.SetCurSel(m_pMotor->m_EZLogic ? 1 : 0);
-
+	m_cmbAxisDir.SetCurSel(m_pMotor->m_AxisDir ? 1 : 0);
+	m_cmbHomeDir.SetCurSel(m_pMotor->m_HomeDir ? 1 : 0);
+	m_editHomeSpeed.SetValueExchange(m_pMotor->m_HomeSpeed);
+	m_editHomeAccTime.SetValueExchange(m_pMotor->m_HomeAccTime);
+	m_editHomeDesTime.SetValueExchange(m_pMotor->m_HomeDesTime);
+	m_editUnitRev.SetValueExchange(m_pMotor->m_UnitRev);
+	m_editPulseRev.SetValueExchange(m_pMotor->m_PulseRev);
 	return TRUE;  // return TRUE unless you set the focus to a control
 	// EXCEPTION:  OCX 屬性頁應傳回 FALSE
 }
@@ -136,8 +163,10 @@ BOOL DlgMotorConfig::OnInitDialog()
 
 void DlgMotorConfig::OnBnClickedOk()
 {
-	m_pMotor->m_PulseMode=m_cmbPlsMode.GetCurSel();
-	m_pMotor->m_CountSource=m_cmbCountSource.GetCurSel();
+	CString strV;
+	m_pMotor->m_HomeMode = m_cmbHomeMode.GetCurSel();
+	m_pMotor->m_PulseMode = m_cmbPlsMode.GetCurSel();
+	m_pMotor->m_CountSource = m_cmbCountSource.GetCurSel();
 	m_pMotor->m_EncoderMode=m_cmbEncoder.GetCurSel();
 	m_pMotor->m_EncoderLogic = m_cmbEncLogic.GetCurSel();
 	m_pMotor->m_INPLogic = m_cmbINPLogic.GetCurSel();
@@ -152,5 +181,18 @@ void DlgMotorConfig::OnBnClickedOk()
 	m_pMotor->m_SDMode=m_cmbSDMode.GetCurSel();
 	m_pMotor->m_SVOnLogic=m_cmbSVONLogic.GetCurSel();
 	m_pMotor->m_EZLogic=m_cmbEZLogic.GetCurSel();
+	m_pMotor->m_AxisDir = m_cmbAxisDir.GetCurSel();
+	m_pMotor->m_HomeDir = m_cmbHomeDir.GetCurSel();
+	m_editHomeSpeed.GetWindowText(strV);
+	m_pMotor->m_HomeSpeed = _wtof(strV);
+	m_editHomeAccTime.GetWindowText(strV);
+	m_pMotor->m_HomeAccTime = _wtof(strV);
+	m_editHomeDesTime.GetWindowText(strV);
+	m_pMotor->m_HomeDesTime = _wtof(strV);
+	m_editUnitRev.GetWindowText(strV);
+	m_pMotor->m_UnitRev = _wtof(strV);
+	m_editPulseRev.GetWindowText(strV);
+	m_pMotor->m_PulseRev = _wtof(strV);
+
 	CDialog::OnOK();
 }

@@ -1,7 +1,9 @@
 #pragma once
 #include "Motor.h"
 #include "afxwin.h"
+#include "EditAutoma.h"
 using namespace AutoLib;
+using namespace AutoUI;
 // DlgMotorConfig ¹ï¸Ü¤è¶ô
 
 class DlgMotorConfig : public CDialog
@@ -38,4 +40,12 @@ public:
 	virtual BOOL OnInitDialog();
 	CComboBox m_cmbEncLogic;
 	afx_msg void OnBnClickedOk();
+	CComboBox m_cmbHomeMode;
+	CComboBox m_cmbAxisDir;
+	CComboBox m_cmbHomeDir;
+	EditAutoma m_editHomeSpeed;
+	EditAutoma m_editHomeAccTime;
+	EditAutoma m_editHomeDesTime;
+	EditAutoma m_editUnitRev;
+	EditAutoma m_editPulseRev;
 };

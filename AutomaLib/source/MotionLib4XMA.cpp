@@ -178,7 +178,11 @@ bool MMotionLib4XMA::isSVOn(MMotor* pMotor)
 		str.Format(_T("_4XMA_get_io_status isSVOn return error(%d)"), ret);
 		ShowMessage(this, str);
 	}
-	return (bool(status & bit_SVON) ^ (!pMotor->m_SVOnLogic));
+	if (pMotor->m_SVOnLogic) 
+	{
+		status = (status & bit_SVON) ^ bit_SVON; 
+	}
+	return (bool(status & bit_SVON));
 }
 bool MMotionLib4XMA::GetSpeed(MMotor* pMotor,double *pSpeed)
 {
@@ -306,6 +310,16 @@ WORD MMotionLib4XMA::GetIOStatus(MMotor* pMotor)
 	U16 sts;
 	ret = _4XMA_get_io_status(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID,
 		pMotor->m_AxisID,&sts);
+	if (pMotor->m_SVOnLogic) //Bit14 is SVON
+	{
+		sts = ((sts & bit_SVON) ^ bit_SVON) | (sts & ~bit_SVON);
+	}
 	return sts;
 }
-
+bool MMotionLib4XMA::SetSVOn(MMotor* pMotor, bool isOn)		//設定是否要Server On
+{
+	I16 ret;
+	ret = _4XMA_set_servo(pMotor->m_CardID, pMotor->m_ConnectID, pMotor->m_StationID,
+		pMotor->m_AxisID, (isOn ^ (!pMotor->m_SVOnLogic))?1:0);
+	return true;
+}

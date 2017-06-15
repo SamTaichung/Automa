@@ -10,8 +10,8 @@ Machine::Machine(CWnd *pWnd):
 	m_pPilot =new MPilot(this, _T("PL01"), _T("Pilot light"));
 	m_pConveyor = new MConveyor(this, _T("CV01"), _T("Conveyor"));
 	m_pPickPlug = new MPickPlug(this, _T("PP01"), _T("PickPlug"),m_pConveyor);
-//	m_pMotionLib = new MMotionLib4XMA(this, _T("ML01"), _T("4XMA Motion Lib"));
-	m_pMotionLib = new MMotionLibVirtual(this, _T("ML02"), _T("Virtual Motion Lib"), 14);
+	m_pMotionLib = new MMotionLib4XMA(this, _T("ML01"), _T("4XMA Motion Lib"));
+	m_pMotionLib2 = new MMotionLibVirtual(this, _T("ML02"), _T("Virtual Motion Lib"), 14);
 	
 	m_pIOLib = new MIOLib(this, _T("IL01"), _T("Virtual IO Lib"));
 	m_pPCIMaster = new MCardPCIMaster(this, _T("PM01"), _T("PCI Master Card"));
@@ -192,7 +192,7 @@ bool Machine::LoadComponentDatas()
 void Machine::CreateMotor()
 {
 	m_pPickPlug->m_pXMotor = AddMotor(new MMotor(m_pPickPlug, _T("M01"), _T("XMotor"),m_pMotionLib, _T("mm")));
-	m_pPickPlug->m_pYMotor = AddMotor(new MMotor(m_pPickPlug, _T("M02"), _T("YMotor"), m_pMotionLib, _T("mm")));
+	m_pPickPlug->m_pYMotor = AddMotor(new MMotor(m_pPickPlug, _T("M02"), _T("YMotor"), m_pMotionLib2, _T("mm")));
 	MPPArm *pPA;
 	CString strID, strName;
 	int count;
@@ -202,14 +202,14 @@ void Machine::CreateMotor()
 		strID.Format(_T("M%.2d"), i + 3);
 		strName.Format(_T("Z%.2dMotor"), i + 1);
 		pPA = m_pPickPlug->m_pArm[i];
-		pPA->m_pZMotor = AddMotor(new MMotor(pPA, strID, strName, m_pMotionLib, _T("mm")));
+		pPA->m_pZMotor = AddMotor(new MMotor(pPA, strID, strName, m_pMotionLib2, _T("mm")));
 	}
 	for (int i = 0; i < count; i++)
 	{
 		strID.Format(_T("M%.2d"), i +count+ 3);
 		strName.Format(_T("R%.2dMotor"), i + 1);
 		pPA = m_pPickPlug->m_pArm[i];
-		pPA->m_pRMotor = AddMotor(new MMotor(pPA, strID, strName, m_pMotionLib, _T("¢X")));
+		pPA->m_pRMotor = AddMotor(new MMotor(pPA, strID, strName, m_pMotionLib2, _T("¢X")));
 
 	}
 }
@@ -427,13 +427,6 @@ void Machine::Cycle(const double dblTime)
 				break;
 				case InitStep::isInitMachine:
 				{
-					pMsg = new MMessage();
-					pMsg->MsgType = MMessage::MESSAGETYPE::LogToFile;
-					pMsg->strMessage = _T("Machine initial complete!");
-					ShowMessage(pMsg);
-					//MError *pError;
-					//pError = new MError(this, _T("Test"), 5, _T("Memo"));
-					//ErrorHappen(pError);
 					m_State = STATE::IDLE;
 				}
 				break;

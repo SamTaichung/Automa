@@ -22,7 +22,7 @@ MachineBase::MachineBase(CWnd *pWnd):
 }
 void MachineBase::ShowMessage(MMessage *pMessage)
 {
-	if (pMessage->MsgType == MMessage::MESSAGETYPE::LogToFile)
+	if (pMessage->MsgType == MMessage::MESSAGETYPE::StepLog)
 	{
 		FILE *m_fp;
 		m_fp = NULL;

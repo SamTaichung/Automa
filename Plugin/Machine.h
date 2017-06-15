@@ -41,6 +41,7 @@ public:
 	MMotionLib *m_pMotionLib;
 	MMotionLib *m_pMotionLib2;
 	MIOLib *m_pIOLib;
+	MIOLib *m_pIOLib2;
 	MCard	*m_pPCIMaster;
 	bool LoadSystemData();
 	bool OpenComponentMDB();
